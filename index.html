@@ -37,8 +37,10 @@
             height: 64px;
             margin: 8px;
             border-radius: 50%;
-            border: 6px solid #595959;
-            border-color: #595959 transparent #595959 transparent;
+            /* border: 6px solid #595959; */
+            /* border-color: #595959 transparent #595959 transparent; */
+            border: 6px solid rgb(6, 57, 112);
+            border-color: rgb(6, 57, 112) transparent rgb(6, 57, 112) transparent;
             animation: lds-dual-ring 1.2s linear infinite;
         }
         @keyframes lds-dual-ring {
@@ -56,7 +58,7 @@
             document.getElementById('splash').style.display = 'none';
         }, false);
         </script>
-        <script type="text/javascript" src="api_examples.js"></script>
+        <!-- <script type="text/javascript" src="api_examples.js"></script> -->
     </head>
     <body>
         <div id="splash"><div class="lds-dual-ring"></div></div>

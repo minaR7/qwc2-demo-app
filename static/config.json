@@ -43,7 +43,7 @@
     "strokeDash": [4],
     "fillColor": [255, 0, 255, 0.33],
     "circleRadius": 10,
-    "textFill": "black",
+    "textFill": "purple",
     "textStroke": "white",
     "textFont": "11pt sans-serif"
   },
@@ -448,18 +448,8 @@
           "topBarText": "QWC2 Demo Portal",
           "showMenuOnStartup": true,
           "keepMenuOpen": true,
-          "bottomBarLinks": [
-              {"href": "http://www.example.com", "label": "Example.com", "target": "iframe"},
-              {"href": "http://www.test.com", "label": "Test.com"}
-          ],
           "menuItems": [
-              {"key": "Help", "icon": "info", "url": "http://example.com"},
-              {"key": "ExternalLink", "icon": "link", "url": "http://example.com?extent=$e$"},
-              {"key": "IframeLink", "icon": "link", "url": "http://example.com", "target": "iframe"},
-              {"key": "Tools", "icon": "tools", "subitems": [
-                {"key": "ExternalLink2", "icon": "link", "url": "http://example.com?extent=$e$"},
-                {"key": "ExternalLink3", "icon": "link", "url": "http://example.com?extent=$e$"}
-              ]}
+              {"key": "IframeLink", "icon": "link", "url": "http://example.com", "target": "iframe"}
           ]
       }
       }
