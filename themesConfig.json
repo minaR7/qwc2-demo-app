@@ -5,7 +5,8 @@
                 "name": "world",
                 "title": "World Map",
                 "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/qgis-server-tutorial-data-master/world.qgs",
-                "srs": "EPSG:3857"
+                "srs": "EPSG:3857",
+                "thumbnail":"ign.png"
             }
         ],
         "backgroundLayers": [
@@ -13,15 +14,15 @@
                 "name": "world",
                 "title": "World Project",
                 "type": "wms",
-                "thumbnail":"app_icon_114.png",
                 "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/qgis-server-tutorial-data-master/world.qgs",
                 "params": {
-                    "LAYERS": "countries",
+                    "LAYERS": "minewarfare",
                     "STYLES": "default",
                     "VERSION": "1.3.0",
                     "SRS": "EPSG:3857",
                     "MAP": "D:/QGIS/qgis-server-tutorial-data-master/world.qgs"
-                }
+                },
+                "thumbnail":"ign.png"
             }
         ]
     },
