@@ -39,9 +39,15 @@
             {
                 "name": "routes_map",
                 "title": "Routes",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/routes_map.qgs",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/routes_map.qgz",
                 "srs": "EPSG:4326",
                 "thumbnail":"ign.png"
+            },
+            {
+                "id": "my-react-map-theme",
+                "name": "My React Map Theme",
+                "label": "My Map",
+                "plugin": "my-react-map-plugin"
             }
         ],
         "backgroundLayers": [
@@ -114,13 +120,13 @@
                 "name": "routes_map",
                 "title": "Routes",
                 "type": "wms",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/routes_map.qgs",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/routes_map.qgz",
                 "params": {
                     "LAYERS": "countries",
                     "STYLES": "default",
                     "VERSION": "1.3.0",
                     "SRS": "EPSG:4326",
-                    "MAP": "D:/QGIS/Projects/routes_map.qgs"
+                    "MAP": "D:/QGIS/Projects/routes_map.qgz"
                 }
             }
             

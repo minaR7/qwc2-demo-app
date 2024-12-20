@@ -502,6 +502,9 @@
             {"key": "Identify", "icon": "identify_region", "mode": "Region"}
           ]
         }
+      },
+      {
+        "name": "my-react-map-plugin"
       }
     ]
   }
