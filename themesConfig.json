@@ -28,6 +28,20 @@
                 "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/protectedareas.qgz",
                 "srs": "EPSG:3857",
                 "thumbnail":"ign.png"
+            },
+            {
+                "name": "dadss_routes1",
+                "title": "Ship Routes",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/dadss_routes1.qgs",
+                "srs": "EPSG:4326",
+                "thumbnail":"ign.png"
+            },
+            {
+                "name": "routes_map",
+                "title": "Routes",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/routes_map.qgs",
+                "srs": "EPSG:4326",
+                "thumbnail":"ign.png"
             }
         ],
         "backgroundLayers": [
@@ -81,6 +95,32 @@
                     "VERSION": "1.3.0",
                     "SRS": "EPSG:3857",
                     "MAP": "D:/QGIS/Projects/protectedareas.qgz"
+                }
+            },
+            {
+                "name": "dadss_routes1",
+                "title": "Ship Routes",
+                "type": "wms",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/dadss_routes1.qgs",
+                "params": {
+                    "LAYERS": "countries",
+                    "STYLES": "default",
+                    "VERSION": "1.3.0",
+                    "SRS": "EPSG:4326",
+                    "MAP": "D:/QGIS/Projects/dadss_routes1.qgs"
+                }
+            },
+            {
+                "name": "routes_map",
+                "title": "Routes",
+                "type": "wms",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/routes_map.qgs",
+                "params": {
+                    "LAYERS": "countries",
+                    "STYLES": "default",
+                    "VERSION": "1.3.0",
+                    "SRS": "EPSG:4326",
+                    "MAP": "D:/QGIS/Projects/routes_map.qgs"
                 }
             }
             
