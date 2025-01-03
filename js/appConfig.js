@@ -63,6 +63,7 @@ import RedliningSupport from 'qwc2/plugins/map/RedliningSupport';
 import ScaleBarSupport from 'qwc2/plugins/map/ScaleBarSupport';
 import SnappingSupport from 'qwc2/plugins/map/SnappingSupport';
 import BufferSupport from 'qwc2/plugins/redlining/RedliningBufferSupport';
+import MyReactMapPlugin from 'qwc2/plugins/MyReactMapPlugin';
 
 import defaultLocaleData from '../static/translations/en-US.json';
 import {renderHelp} from './Help';
@@ -129,6 +130,7 @@ export default {
             TaskButtonPlugin: TaskButtonPlugin,
             ThemeSwitcherPlugin: ThemeSwitcherPlugin,
             TimeManagerPlugin: TimeManagerPlugin,
+            // MyReactMapPlugin: MyReactMapPlugin,
             TopBarPlugin: TopBarPlugin({
                 AppMenu: AppMenu,
                 Search: SearchBox,
