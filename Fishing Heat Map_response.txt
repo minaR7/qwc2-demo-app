@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xmlns:sld="http://www.opengis.net/sld" xmlns:qgs="http://www.qgis.org/wms" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd http://www.qgis.org/wms http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Ffishingheatmap.qgz&amp;SERVICE=WMS&amp;REQUEST=GetSchemaExtension">
+ <Service>
+  <Name>WMS</Name>
+  <Title>QGIS Server Demo</Title>
+  <Abstract><![CDATA[This is a simple World map that showcases QGIS Server capabilities.]]></Abstract>
+  <KeywordList>
+   <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
+   <Keyword>QGIS Server World</Keyword>
+  </KeywordList>
+  <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Ffishingheatmap.qgz"/>
+  <ContactInformation>
+   <ContactPersonPrimary>
+    <ContactPerson>Tudor Bărăscu</ContactPerson>
+    <ContactOrganization>qgis.org</ContactOrganization>
+   </ContactPersonPrimary>
+   <ContactElectronicMailAddress>tudor.barascu@qtibia.ro</ContactElectronicMailAddress>
+  </ContactInformation>
+  <Fees>conditions unknown</Fees>
+  <AccessConstraints>None</AccessConstraints>
+ </Service>
+ <Capability>
+  <Request>
+   <GetCapabilities>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Ffishingheatmap.qgz&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetCapabilities>
+   <GetMap>
+    <Format>image/jpeg</Format>
+    <Format>image/png</Format>
+    <Format>image/png; mode=16bit</Format>
+    <Format>image/png; mode=8bit</Format>
+    <Format>image/png; mode=1bit</Format>
+    <Format>application/dxf</Format>
+    <Format>application/pdf</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Ffishingheatmap.qgz&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetMap>
+   <GetFeatureInfo>
+    <Format>text/plain</Format>
+    <Format>text/html</Format>
+    <Format>text/xml</Format>
+    <Format>application/vnd.ogc.gml</Format>
+    <Format>application/vnd.ogc.gml/3.1.1</Format>
+    <Format>application/json</Format>
+    <Format>application/geo+json</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Ffishingheatmap.qgz&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetFeatureInfo>
+   <sld:GetLegendGraphic>
+    <Format>image/jpeg</Format>
+    <Format>image/png</Format>
+    <Format>application/json</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Ffishingheatmap.qgz&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </sld:GetLegendGraphic>
+   <sld:DescribeLayer>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Ffishingheatmap.qgz&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </sld:DescribeLayer>
+   <qgs:GetStyles>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Ffishingheatmap.qgz&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </qgs:GetStyles>
+   <GetPrint>
+    <Format>svg</Format>
+    <Format>png</Format>
+    <Format>pdf</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Ffishingheatmap.qgz&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetPrint>
+  </Request>
+  <Exception>
+   <Format>XML</Format>
+  </Exception>
+  <sld:UserDefinedSymbolization UserLayer="0" RemoteWCS="0" UserStyle="1" RemoteWFS="0" InlineFeature="0" SupportSLD="1"/>
+  <ComposerTemplates>
+   <ComposerTemplate width="297" height="210" name="Population distribution">
+    <ComposerMap width="201.04499999999999" height="129.03800000000001" name="map0" itemName="Map 1"/>
+    <ComposerLabel name="Html Description"/>
+    <ComposerLabel name="HTML Title"/>
+    <ComposerLabel name="Html Description"/>
+   </ComposerTemplate>
+  </ComposerTemplates>
+  <WFSLayers/>
+  <Layer queryable="1">
+   <Title>QGIS Server Demo</Title>
+   <Abstract><![CDATA[This is a simple World map that showcases QGIS Server capabilities.]]></Abstract>
+   <KeywordList>
+    <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
+    <Keyword>QGIS Server World</Keyword>
+   </KeywordList>
+   <CRS>CRS:84</CRS>
+   <CRS>EPSG:900913</CRS>
+   <CRS>EPSG:4326</CRS>
+   <CRS>EPSG:3857</CRS>
+   <EX_GeographicBoundingBox>
+    <westBoundLongitude>-180</westBoundLongitude>
+    <eastBoundLongitude>180</eastBoundLongitude>
+    <southBoundLatitude>-90</southBoundLatitude>
+    <northBoundLatitude>90</northBoundLatitude>
+   </EX_GeographicBoundingBox>
+   <BoundingBox maxx="20037508.343" minx="-20037508.343" CRS="EPSG:3857" maxy="44927335.428" miny="-44927335.428"/>
+   <BoundingBox maxx="90" minx="-90" CRS="EPSG:4326" maxy="180" miny="-180"/>
+   <BoundingBox maxx="20037508.343" minx="-20037508.343" CRS="EPSG:900913" maxy="242528680.944" miny="-242528680.944"/>
+   <TreeName></TreeName>
+   <Layer queryable="1" opacity="1" displayField="date" geometryType="Point" visible="1" expanded="1" visibilityChecked="1">
+    <Name>fdensity-less stops</Name>
+    <Title>fdensity-less stops</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:900913</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>61.2</westBoundLongitude>
+     <eastBoundLongitude>670.799988</eastBoundLongitude>
+     <southBoundLatitude>3.309999</southBoundLatitude>
+     <northBoundLatitude>246.979996</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox maxx="19701919.763" minx="-20021217.883" CRS="EPSG:3857" maxy="44927335.428" miny="368672.634"/>
+    <BoundingBox maxx="246.979996" minx="3.309999" CRS="EPSG:4326" maxy="670.799988" miny="61.2"/>
+    <BoundingBox maxx="19364137.981" minx="-19413210.674" CRS="EPSG:900913" maxy="28069733.167" miny="368672.634"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Ffishingheatmap.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=fdensity-less stops&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
+     </LegendURL>
+    </Style>
+    <TreeName>fdensity-less stops</TreeName>
+    <PrimaryKey>
+     <PrimaryKeyAttribute>fd_key</PrimaryKeyAttribute>
+    </PrimaryKey>
+    <Attributes>
+     <Attribute comment="" type="int" name="fd_key" typeName="int4" precision="0" editType="Range" length="-1"/>
+     <Attribute comment="" type="QString" name="date" typeName="varchar" precision="0" editType="TextEdit" length="50"/>
+     <Attribute comment="" type="double" name="latitude" typeName="float4" precision="0" editType="TextEdit" length="-1"/>
+     <Attribute comment="" type="double" name="longitude" typeName="float4" precision="0" editType="TextEdit" length="-1"/>
+     <Attribute comment="" type="int" name="no_vessels" typeName="int4" precision="0" editType="Range" length="-1"/>
+    </Attributes>
+   </Layer>
+   <Layer queryable="1" opacity="1" displayField="date" geometryType="Point" visible="0" expanded="1" visibilityChecked="0">
+    <Name>fdensity</Name>
+    <Title>fdensity</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:900913</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>61.2</westBoundLongitude>
+     <eastBoundLongitude>670.799988</eastBoundLongitude>
+     <southBoundLatitude>3.309999</southBoundLatitude>
+     <northBoundLatitude>246.979996</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox maxx="19701919.763" minx="-20021217.883" CRS="EPSG:3857" maxy="44927335.428" miny="368672.634"/>
+    <BoundingBox maxx="246.979996" minx="3.309999" CRS="EPSG:4326" maxy="670.799988" miny="61.2"/>
+    <BoundingBox maxx="19364137.981" minx="-19413210.674" CRS="EPSG:900913" maxy="28069733.167" miny="368672.634"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Ffishingheatmap.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=fdensity&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
+     </LegendURL>
+    </Style>
+    <TreeName>fdensity</TreeName>
+    <PrimaryKey>
+     <PrimaryKeyAttribute>fd_key</PrimaryKeyAttribute>
+    </PrimaryKey>
+    <Attributes>
+     <Attribute comment="" type="int" name="fd_key" typeName="int4" precision="0" editType="Range" length="-1"/>
+     <Attribute comment="" type="QString" name="date" typeName="varchar" precision="0" editType="TextEdit" length="50"/>
+     <Attribute comment="" type="double" name="latitude" typeName="float4" precision="0" editType="TextEdit" length="-1"/>
+     <Attribute comment="" type="double" name="longitude" typeName="float4" precision="0" editType="TextEdit" length="-1"/>
+     <Attribute comment="" type="int" name="no_vessels" typeName="int4" precision="0" editType="Range" length="-1"/>
+    </Attributes>
+   </Layer>
+   <Layer queryable="1" opacity="1" visible="1" expanded="1" visibilityChecked="1">
+    <Name>OpenStreetMap</Name>
+    <Title>OpenStreetMap</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:900913</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>-180</westBoundLongitude>
+     <eastBoundLongitude>180</eastBoundLongitude>
+     <southBoundLatitude>-85.051129</southBoundLatitude>
+     <northBoundLatitude>85.051129</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox maxx="20037508.343" minx="-20037508.343" CRS="EPSG:3857" maxy="20037508.343" miny="-20037508.343"/>
+    <BoundingBox maxx="85.051129" minx="-85.051129" CRS="EPSG:4326" maxy="180" miny="-180"/>
+    <BoundingBox maxx="20037508.343" minx="-20037508.343" CRS="EPSG:900913" maxy="20037508.343" miny="-20037508.343"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Ffishingheatmap.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=OpenStreetMap&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
+     </LegendURL>
+    </Style>
+    <TreeName>OpenStreetMap</TreeName>
+    <WMSBackgroundLayer>0</WMSBackgroundLayer>
+   </Layer>
+  </Layer>
+  <LayerDrawingOrder>OpenStreetMap,fdensity,fdensity-less stops</LayerDrawingOrder>
+ </Capability>
+</WMS_Capabilities>

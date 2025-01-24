@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WMS_Capabilities xmlns:qgs="http://www.qgis.org/wms" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd http://www.qgis.org/wms http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2Fqgis-server-tutorial-data-master%2Fworld.qgs&amp;SERVICE=WMS&amp;REQUEST=GetSchemaExtension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sld="http://www.opengis.net/sld" version="1.3.0" xmlns="http://www.opengis.net/wms">
+ <Service>
+  <Name>WMS</Name>
+  <Title>QGIS Server Demo</Title>
+  <Abstract><![CDATA[This is a simple World map that showcases QGIS Server capabilities.]]></Abstract>
+  <KeywordList>
+   <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
+   <Keyword>QGIS Server World</Keyword>
+  </KeywordList>
+  <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2Fqgis-server-tutorial-data-master%2Fworld.qgs"/>
+  <ContactInformation>
+   <ContactPersonPrimary>
+    <ContactPerson>Tudor Bărăscu</ContactPerson>
+    <ContactOrganization>qgis.org</ContactOrganization>
+   </ContactPersonPrimary>
+   <ContactElectronicMailAddress>tudor.barascu@qtibia.ro</ContactElectronicMailAddress>
+  </ContactInformation>
+  <Fees>conditions unknown</Fees>
+  <AccessConstraints>None</AccessConstraints>
+ </Service>
+ <Capability>
+  <Request>
+   <GetCapabilities>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2Fqgis-server-tutorial-data-master%2Fworld.qgs&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetCapabilities>
+   <GetMap>
+    <Format>image/jpeg</Format>
+    <Format>image/png</Format>
+    <Format>image/png; mode=16bit</Format>
+    <Format>image/png; mode=8bit</Format>
+    <Format>image/png; mode=1bit</Format>
+    <Format>application/dxf</Format>
+    <Format>application/pdf</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2Fqgis-server-tutorial-data-master%2Fworld.qgs&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetMap>
+   <GetFeatureInfo>
+    <Format>text/plain</Format>
+    <Format>text/html</Format>
+    <Format>text/xml</Format>
+    <Format>application/vnd.ogc.gml</Format>
+    <Format>application/vnd.ogc.gml/3.1.1</Format>
+    <Format>application/json</Format>
+    <Format>application/geo+json</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2Fqgis-server-tutorial-data-master%2Fworld.qgs&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetFeatureInfo>
+   <sld:GetLegendGraphic>
+    <Format>image/jpeg</Format>
+    <Format>image/png</Format>
+    <Format>application/json</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2Fqgis-server-tutorial-data-master%2Fworld.qgs&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </sld:GetLegendGraphic>
+   <sld:DescribeLayer>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2Fqgis-server-tutorial-data-master%2Fworld.qgs&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </sld:DescribeLayer>
+   <qgs:GetStyles>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2Fqgis-server-tutorial-data-master%2Fworld.qgs&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </qgs:GetStyles>
+   <GetPrint>
+    <Format>svg</Format>
+    <Format>png</Format>
+    <Format>pdf</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2Fqgis-server-tutorial-data-master%2Fworld.qgs&amp;"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetPrint>
+  </Request>
+  <Exception>
+   <Format>XML</Format>
+  </Exception>
+  <sld:UserDefinedSymbolization RemoteWFS="0" UserLayer="0" InlineFeature="0" SupportSLD="1" UserStyle="1" RemoteWCS="0"/>
+  <ComposerTemplates>
+   <ComposerTemplate height="210" width="297" name="Population distribution">
+    <ComposerMap height="129.03800000000001" width="201.04499999999999" itemName="Map 1" name="map0"/>
+    <ComposerLabel name="Html Description"/>
+    <ComposerLabel name="HTML Title"/>
+    <ComposerLabel name="Html Description"/>
+   </ComposerTemplate>
+  </ComposerTemplates>
+  <WFSLayers>
+   <WFSLayer name="countries"/>
+  </WFSLayers>
+  <Layer queryable="1">
+   <Title>QGIS Server Demo</Title>
+   <Abstract><![CDATA[This is a simple World map that showcases QGIS Server capabilities.]]></Abstract>
+   <KeywordList>
+    <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
+    <Keyword>QGIS Server World</Keyword>
+   </KeywordList>
+   <CRS>CRS:84</CRS>
+   <CRS>EPSG:900913</CRS>
+   <CRS>EPSG:4326</CRS>
+   <CRS>EPSG:3857</CRS>
+   <EX_GeographicBoundingBox>
+    <westBoundLongitude>-180</westBoundLongitude>
+    <eastBoundLongitude>180</eastBoundLongitude>
+    <southBoundLatitude>-90</southBoundLatitude>
+    <northBoundLatitude>90</northBoundLatitude>
+   </EX_GeographicBoundingBox>
+   <BoundingBox CRS="EPSG:3857" miny="-44927335.428" maxx="20037508.343" minx="-20037508.343" maxy="44927335.428"/>
+   <BoundingBox CRS="EPSG:4326" miny="-180" maxx="90" minx="-90" maxy="180"/>
+   <BoundingBox CRS="EPSG:900913" miny="-242528680.944" maxx="20037508.343" minx="-20037508.343" maxy="242528680.944"/>
+   <TreeName></TreeName>
+   <Layer displayField="unique_id" visibilityChecked="1" queryable="1" geometryType="Point" visible="1" expanded="1" opacity="0.442">
+    <Name>minewarfare</Name>
+    <Title>minewarfare</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:900913</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>34.2354</westBoundLongitude>
+     <eastBoundLongitude>67.212</eastBoundLongitude>
+     <southBoundLatitude>22.6755</southBoundLatitude>
+     <northBoundLatitude>54.3378</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox CRS="EPSG:3857" miny="2592822.738" maxx="7482005.616" minx="3811067.295" maxy="7234392.93"/>
+    <BoundingBox CRS="EPSG:4326" miny="34.2354" maxx="54.3378" minx="22.6755" maxy="67.212"/>
+    <BoundingBox CRS="EPSG:900913" miny="2592822.738" maxx="7482005.616" minx="3811067.295" maxy="7234392.93"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2Fqgis-server-tutorial-data-master%2Fworld.qgs&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=minewarfare&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
+     </LegendURL>
+    </Style>
+    <TreeName>minewarfare</TreeName>
+    <PrimaryKey>
+     <PrimaryKeyAttribute>id</PrimaryKeyAttribute>
+    </PrimaryKey>
+    <Attributes>
+     <Attribute editType="TextEdit" type="qlonglong" precision="0" typeName="int8" length="-1" comment="" name="id"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="uuid" length="-1" comment="" name="unique_id"/>
+     <Attribute editType="TextEdit" type="qlonglong" precision="0" typeName="int8" length="-1" comment="" name="mid"/>
+     <Attribute editType="TextEdit" type="qlonglong" precision="0" typeName="int8" length="-1" comment="" name="vid"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="varchar" length="255" comment="" name="ownedby"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="varchar" length="30" comment="" name="sidc"/>
+     <Attribute editType="TextEdit" type="int" precision="0" typeName="int4" length="-1" comment="" name="identity"/>
+     <Attribute editType="TextEdit" type="int" precision="0" typeName="int4" length="-1" comment="" name="context"/>
+     <Attribute editType="TextEdit" type="int" precision="0" typeName="int4" length="-1" comment="" name="symbolset"/>
+     <Attribute editType="TextEdit" type="int" precision="0" typeName="int4" length="-1" comment="" name="status"/>
+     <Attribute editType="TextEdit" type="int" precision="0" typeName="int4" length="-1" comment="" name="indicator"/>
+     <Attribute editType="TextEdit" type="int" precision="0" typeName="int4" length="-1" comment="" name="echelon"/>
+     <Attribute editType="TextEdit" type="int" precision="0" typeName="int4" length="-1" comment="" name="symbol"/>
+     <Attribute editType="TextEdit" type="int" precision="0" typeName="int4" length="-1" comment="" name="modifier1"/>
+     <Attribute editType="TextEdit" type="int" precision="0" typeName="int4" length="-1" comment="" name="modifier2"/>
+     <Attribute editType="Range" type="int" precision="0" typeName="int4" length="-1" comment="" name="reinforced"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="varchar" length="20" comment="" name="staffcomments"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="varchar" length="20" comment="" name="additionalinformation"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="varchar" length="2" comment="" name="reliability"/>
+     <Attribute editType="Range" type="int" precision="0" typeName="int4" length="-1" comment="" name="credibility"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="varchar" length="5" comment="" name="combateffectiveness"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="varchar" length="21" comment="" name="higherformation"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="varchar" length="15" comment="" name="idmode"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="varchar" length="30" comment="" name="uniquedesignation"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="varchar" length="10" comment="" name="specialheadquarters"/>
+     <Attribute editType="Range" type="int" precision="0" typeName="int4" length="-1" comment="" name="direction"/>
+     <Attribute editType="Range" type="int" precision="0" typeName="int4" length="-1" comment="" name="speed"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="varchar" length="3" comment="" name="speedunit"/>
+     <Attribute editType="TextEdit" type="double" precision="0" typeName="float8" length="-1" comment="" name="z"/>
+     <Attribute editType="Range" type="int" precision="0" typeName="int4" length="-1" comment="" name="size"/>
+     <Attribute editType="Range" type="int" precision="0" typeName="int4" length="-1" comment="" name="rotation"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="varchar" length="3" comment="" name="countrycode"/>
+     <Attribute editType="DateTime" type="QDateTime" precision="0" typeName="timestamp" length="-1" comment="" name="datetimevalid"/>
+     <Attribute editType="DateTime" type="QDateTime" precision="0" typeName="timestamp" length="-1" comment="" name="datetimeexpired"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="varchar" length="50" comment="" name="createdby"/>
+     <Attribute editType="TextEdit" type="QDateTime" precision="0" typeName="timestamp" length="-1" comment="" name="createdtime"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="varchar" length="50" comment="" name="editedby"/>
+     <Attribute editType="DateTime" type="QDateTime" precision="0" typeName="timestamp" length="-1" comment="" name="editedtime"/>
+     <Attribute editType="Range" type="int" precision="0" typeName="int4" length="-1" comment="" name="mass"/>
+     <Attribute editType="Range" type="int" precision="0" typeName="int4" length="-1" comment="" name="specificplacement"/>
+     <Attribute editType="Range" type="int" precision="0" typeName="int4" length="-1" comment="" name="purpose"/>
+     <Attribute editType="Range" type="int" precision="0" typeName="int4" length="-1" comment="" name="sensitivity"/>
+     <Attribute editType="Range" type="int" precision="0" typeName="int4" length="-1" comment="" name="generalcontact"/>
+     <Attribute editType="Range" type="int" precision="0" typeName="int4" length="-1" comment="" name="specificcontact"/>
+     <Attribute editType="Range" type="int" precision="0" typeName="int4" length="-1" comment="" name="specificcontactdetails"/>
+     <Attribute editType="Range" type="int" precision="0" typeName="int4" length="-1" comment="" name="sequence"/>
+    </Attributes>
+   </Layer>
+   <Layer displayField="maptip" visibilityChecked="1" queryable="1" geometryType="MultiPolygon" visible="1" expanded="0" opacity="0.863">
+    <Name>countries</Name>
+    <Title>countries</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:900913</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>-180</westBoundLongitude>
+     <eastBoundLongitude>180</eastBoundLongitude>
+     <southBoundLatitude>-90</southBoundLatitude>
+     <northBoundLatitude>83.623597</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox CRS="EPSG:3857" miny="-44927335.428" maxx="20037508.343" minx="-20037508.343" maxy="18418382.138"/>
+    <BoundingBox CRS="EPSG:4326" miny="-180" maxx="83.623597" minx="-90" maxy="180"/>
+    <BoundingBox CRS="EPSG:900913" miny="-242528680.944" maxx="20037508.343" minx="-20037508.343" maxy="18418382.138"/>
+    <Style>
+     <Name>classified_by_name</Name>
+     <Title>classified_by_name</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2Fqgis-server-tutorial-data-master%2Fworld.qgs&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=countries&amp;FORMAT=image/png&amp;STYLE=classified_by_name&amp;SLD_VERSION=1.1.0"/>
+     </LegendURL>
+    </Style>
+    <Style>
+     <Name>classified_by_population</Name>
+     <Title>classified_by_population</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2Fqgis-server-tutorial-data-master%2Fworld.qgs&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=countries&amp;FORMAT=image/png&amp;STYLE=classified_by_population&amp;SLD_VERSION=1.1.0"/>
+     </LegendURL>
+    </Style>
+    <TreeName>countries</TreeName>
+    <PrimaryKey>
+     <PrimaryKeyAttribute>id</PrimaryKeyAttribute>
+    </PrimaryKey>
+    <Attributes>
+     <Attribute editType="TextEdit" type="qlonglong" precision="0" typeName="integer" length="0" comment="" name="id"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="text" length="0" comment="" name="fips"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="text" length="0" comment="" name="iso2"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="text" length="0" comment="" name="iso3"/>
+     <Attribute editType="TextEdit" type="qlonglong" precision="0" typeName="bigint" length="0" comment="" name="un"/>
+     <Attribute editType="TextEdit" type="QString" precision="0" typeName="text" length="0" comment="" name="name"/>
+     <Attribute editType="TextEdit" type="qlonglong" precision="0" typeName="bigint" length="0" comment="" name="area"/>
+     <Attribute editType="TextEdit" type="qlonglong" precision="0" typeName="bigint" length="0" comment="" name="pop2005"/>
+     <Attribute editType="TextEdit" type="qlonglong" precision="0" typeName="bigint" length="0" comment="" name="region"/>
+     <Attribute editType="TextEdit" type="qlonglong" precision="0" typeName="bigint" length="0" comment="" name="subregion"/>
+     <Attribute editType="TextEdit" type="double" precision="0" typeName="real" length="0" comment="" name="lon"/>
+     <Attribute editType="TextEdit" type="double" precision="0" typeName="real" length="0" comment="" name="lat"/>
+     <Attribute editType="TextEdit" type="qlonglong" precision="0" typeName="bigint" length="0" comment="" name="pop_est"/>
+    </Attributes>
+   </Layer>
+  </Layer>
+  <LayerDrawingOrder>countries,minewarfare</LayerDrawingOrder>
+ </Capability>
+</WMS_Capabilities>

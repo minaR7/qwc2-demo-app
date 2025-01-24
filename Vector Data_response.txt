@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WMS_Capabilities xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:qgs="http://www.qgis.org/wms" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd http://www.qgis.org/wms http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsimple_world.qgz&amp;SERVICE=WMS&amp;REQUEST=GetSchemaExtension" xmlns:sld="http://www.opengis.net/sld" xmlns="http://www.opengis.net/wms">
+ <Service>
+  <Name>WMS</Name>
+  <Title>Untitled</Title>
+  <KeywordList>
+   <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
+  </KeywordList>
+  <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsimple_world.qgz" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <Fees>conditions unknown</Fees>
+  <AccessConstraints>None</AccessConstraints>
+ </Service>
+ <Capability>
+  <Request>
+   <GetCapabilities>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsimple_world.qgz&amp;" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetCapabilities>
+   <GetMap>
+    <Format>image/jpeg</Format>
+    <Format>image/png</Format>
+    <Format>image/png; mode=16bit</Format>
+    <Format>image/png; mode=8bit</Format>
+    <Format>image/png; mode=1bit</Format>
+    <Format>application/dxf</Format>
+    <Format>application/pdf</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsimple_world.qgz&amp;" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetMap>
+   <GetFeatureInfo>
+    <Format>text/plain</Format>
+    <Format>text/html</Format>
+    <Format>text/xml</Format>
+    <Format>application/vnd.ogc.gml</Format>
+    <Format>application/vnd.ogc.gml/3.1.1</Format>
+    <Format>application/json</Format>
+    <Format>application/geo+json</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsimple_world.qgz&amp;" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetFeatureInfo>
+   <sld:GetLegendGraphic>
+    <Format>image/jpeg</Format>
+    <Format>image/png</Format>
+    <Format>application/json</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsimple_world.qgz&amp;" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </sld:GetLegendGraphic>
+   <sld:DescribeLayer>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsimple_world.qgz&amp;" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </sld:DescribeLayer>
+   <qgs:GetStyles>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsimple_world.qgz&amp;" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </qgs:GetStyles>
+   <GetPrint>
+    <Format>svg</Format>
+    <Format>png</Format>
+    <Format>pdf</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsimple_world.qgz&amp;" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetPrint>
+  </Request>
+  <Exception>
+   <Format>XML</Format>
+  </Exception>
+  <sld:UserDefinedSymbolization UserLayer="0" InlineFeature="0" SupportSLD="1" RemoteWFS="0" RemoteWCS="0" UserStyle="1"/>
+  <Layer queryable="1">
+   <Title>Untitled</Title>
+   <KeywordList>
+    <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
+   </KeywordList>
+   <CRS>CRS:84</CRS>
+   <CRS>EPSG:4326</CRS>
+   <CRS>EPSG:3857</CRS>
+   <EX_GeographicBoundingBox>
+    <westBoundLongitude>-0.001617</westBoundLongitude>
+    <eastBoundLongitude>0.001617</eastBoundLongitude>
+    <southBoundLatitude>-0.000809</southBoundLatitude>
+    <northBoundLatitude>0.000809</northBoundLatitude>
+   </EX_GeographicBoundingBox>
+   <BoundingBox minx="-180" maxy="90" CRS="EPSG:3857" maxx="180" miny="-90"/>
+   <BoundingBox minx="-0.000809" maxy="0.001617" CRS="EPSG:4326" maxx="0.000809" miny="-0.001617"/>
+   <TreeName></TreeName>
+   <Layer visibilityChecked="1" expanded="1" geometryType="Point" visible="1" opacity="1" queryable="1" displayField="date">
+    <Name>fdensity</Name>
+    <Title>fdensity</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>61.2</westBoundLongitude>
+     <eastBoundLongitude>670.799988</eastBoundLongitude>
+     <southBoundLatitude>3.309999</southBoundLatitude>
+     <northBoundLatitude>246.979996</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox minx="-20021217.883" maxy="44927335.428" CRS="EPSG:3857" maxx="19701919.763" miny="368672.634"/>
+    <BoundingBox minx="3.309999" maxy="670.799988" CRS="EPSG:4326" maxx="246.979996" miny="61.2"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsimple_world.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=fdensity&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </LegendURL>
+    </Style>
+    <TreeName>fdensity</TreeName>
+    <PrimaryKey>
+     <PrimaryKeyAttribute>fd_key</PrimaryKeyAttribute>
+    </PrimaryKey>
+    <Attributes>
+     <Attribute editType="" name="fd_key" comment="" precision="0" type="int" typeName="int4" length="-1"/>
+     <Attribute editType="" name="date" comment="" precision="0" type="QString" typeName="varchar" length="50"/>
+     <Attribute editType="" name="latitude" comment="" precision="0" type="double" typeName="float4" length="-1"/>
+     <Attribute editType="" name="longitude" comment="" precision="0" type="double" typeName="float4" length="-1"/>
+     <Attribute editType="" name="no_vessels" comment="" precision="0" type="int" typeName="int4" length="-1"/>
+    </Attributes>
+   </Layer>
+   <Layer visibilityChecked="0" expanded="1" geometryType="MultiPolygon" visible="0" opacity="1" queryable="1" displayField="name">
+    <Name>protected_areas</Name>
+    <Title>protected_areas</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>20.224323</westBoundLongitude>
+     <eastBoundLongitude>20.517875</eastBoundLongitude>
+     <southBoundLatitude>-34.094844</southBoundLatitude>
+     <northBoundLatitude>-33.898006</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox minx="2251361.371" maxy="-4015114.985" CRS="EPSG:3857" maxx="2284039.297" miny="-4041544.285"/>
+    <BoundingBox minx="-34.094844" maxy="20.517875" CRS="EPSG:4326" maxx="-33.898006" miny="20.224323"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsimple_world.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=protected_areas&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </LegendURL>
+    </Style>
+    <TreeName>protected_areas</TreeName>
+    <Attributes>
+     <Attribute editType="TextEdit" name="full_id" comment="" precision="0" type="QString" typeName="String" length="254"/>
+     <Attribute editType="TextEdit" name="osm_id" comment="" precision="0" type="QString" typeName="String" length="254"/>
+     <Attribute editType="TextEdit" name="osm_type" comment="" precision="0" type="QString" typeName="String" length="254"/>
+     <Attribute editType="TextEdit" name="boundary" comment="" precision="0" type="QString" typeName="String" length="254"/>
+     <Attribute editType="TextEdit" name="is_in" comment="" precision="0" type="QString" typeName="String" length="254"/>
+     <Attribute editType="TextEdit" name="leisure" comment="" precision="0" type="QString" typeName="String" length="254"/>
+     <Attribute editType="TextEdit" name="name" comment="" precision="0" type="QString" typeName="String" length="254"/>
+     <Attribute editType="TextEdit" name="type" comment="" precision="0" type="QString" typeName="String" length="254"/>
+     <Attribute editType="TextEdit" name="wikidata" comment="" precision="0" type="QString" typeName="String" length="254"/>
+     <Attribute editType="TextEdit" name="wikipedia" comment="" precision="0" type="QString" typeName="String" length="254"/>
+     <Attribute editType="TextEdit" name="landuse" comment="" precision="0" type="QString" typeName="String" length="254"/>
+     <Attribute editType="TextEdit" name="name_de" comment="" precision="0" type="QString" typeName="String" length="254"/>
+     <Attribute editType="TextEdit" name="sagns_id" comment="" precision="0" type="QString" typeName="String" length="254"/>
+     <Attribute editType="TextEdit" name="website" comment="" precision="0" type="QString" typeName="String" length="254"/>
+    </Attributes>
+   </Layer>
+   <Layer visibilityChecked="1" expanded="0" visible="1" opacity="1" queryable="1">
+    <Name>default</Name>
+    <Title>default</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>-180</westBoundLongitude>
+     <eastBoundLongitude>180</eastBoundLongitude>
+     <southBoundLatitude>-88</southBoundLatitude>
+     <northBoundLatitude>88</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox minx="-20037508.343" maxy="25819498.514" CRS="EPSG:3857" maxx="20037508.343" miny="-25819498.514"/>
+    <BoundingBox minx="-88" maxy="180" CRS="EPSG:4326" maxx="88" miny="-180"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsimple_world.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=default&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+     </LegendURL>
+    </Style>
+    <TreeName>default</TreeName>
+    <WMSBackgroundLayer>0</WMSBackgroundLayer>
+   </Layer>
+  </Layer>
+  <LayerDrawingOrder>default,protected_areas,fdensity</LayerDrawingOrder>
+ </Capability>
+</WMS_Capabilities>

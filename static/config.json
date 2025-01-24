@@ -236,7 +236,7 @@
           "showQueryableIcon": true,
           "allowMapTips": true,
           "mapTipsEnabled": false,
-          "allowCompare": true,
+          "allowCompare": false,
           "allowImport": true,
           "groupTogglesSublayers": false,
           "grayUnchecked": false,
