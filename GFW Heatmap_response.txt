@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WMS_Capabilities xmlns:sld="http://www.opengis.net/sld" version="1.3.0" xmlns="http://www.opengis.net/wms" xmlns:qgs="http://www.qgis.org/wms" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd http://www.qgis.org/wms http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz&amp;SERVICE=WMS&amp;REQUEST=GetSchemaExtension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+ <Service>
+  <Name>WMS</Name>
+  <Title>Untitled</Title>
+  <KeywordList>
+   <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
+  </KeywordList>
+  <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+  <Fees>None</Fees>
+  <AccessConstraints>None</AccessConstraints>
+ </Service>
+ <Capability>
+  <Request>
+   <GetCapabilities>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetCapabilities>
+   <GetMap>
+    <Format>image/jpeg</Format>
+    <Format>image/png</Format>
+    <Format>image/png; mode=16bit</Format>
+    <Format>image/png; mode=8bit</Format>
+    <Format>image/png; mode=1bit</Format>
+    <Format>application/dxf</Format>
+    <Format>application/pdf</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetMap>
+   <GetFeatureInfo>
+    <Format>text/plain</Format>
+    <Format>text/html</Format>
+    <Format>text/xml</Format>
+    <Format>application/vnd.ogc.gml</Format>
+    <Format>application/vnd.ogc.gml/3.1.1</Format>
+    <Format>application/json</Format>
+    <Format>application/geo+json</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetFeatureInfo>
+   <sld:GetLegendGraphic>
+    <Format>image/jpeg</Format>
+    <Format>image/png</Format>
+    <Format>application/json</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </sld:GetLegendGraphic>
+   <sld:DescribeLayer>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </sld:DescribeLayer>
+   <qgs:GetStyles>
+    <Format>text/xml</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </qgs:GetStyles>
+   <GetPrint>
+    <Format>svg</Format>
+    <Format>png</Format>
+    <Format>pdf</Format>
+    <DCPType>
+     <HTTP>
+      <Get>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+      </Get>
+     </HTTP>
+    </DCPType>
+   </GetPrint>
+  </Request>
+  <Exception>
+   <Format>XML</Format>
+  </Exception>
+  <sld:UserDefinedSymbolization RemoteWCS="0" UserStyle="1" SupportSLD="1" RemoteWFS="0" UserLayer="0" InlineFeature="0"/>
+  <Layer queryable="1">
+   <Title>Untitled</Title>
+   <KeywordList>
+    <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
+   </KeywordList>
+   <CRS>CRS:84</CRS>
+   <CRS>EPSG:4326</CRS>
+   <CRS>EPSG:3857</CRS>
+   <EX_GeographicBoundingBox>
+    <westBoundLongitude>-180</westBoundLongitude>
+    <eastBoundLongitude>180</eastBoundLongitude>
+    <southBoundLatitude>-85.051129</southBoundLatitude>
+    <northBoundLatitude>85.051129</northBoundLatitude>
+   </EX_GeographicBoundingBox>
+   <BoundingBox maxy="20037508.343" CRS="EPSG:3857" miny="-20037508.343" minx="-20037508.343" maxx="20037508.343"/>
+   <BoundingBox maxy="180" CRS="EPSG:4326" miny="-180" minx="-85.051129" maxx="85.051129"/>
+   <TreeName></TreeName>
+   <Layer visible="0" visibilityChecked="0" queryable="1" geometryType="Polygon" opacity="1" expanded="1" displayField="id">
+    <Name>Grid_1km</Name>
+    <Title>Grid_1km</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>-0.001617</westBoundLongitude>
+     <eastBoundLongitude>0.001617</eastBoundLongitude>
+     <southBoundLatitude>-0.000765</southBoundLatitude>
+     <northBoundLatitude>0.000765</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox maxy="85.06" CRS="EPSG:3857" miny="-85.06" minx="-180" maxx="180"/>
+    <BoundingBox maxy="0.001617" CRS="EPSG:4326" miny="-0.001617" minx="-0.000765" maxx="0.000765"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=Grid_1km&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+     </LegendURL>
+    </Style>
+    <TreeName>Grid_1km</TreeName>
+    <Attributes>
+     <Attribute type="qlonglong" comment="" editType="" length="0" precision="0" name="id" typeName="int8"/>
+     <Attribute type="double" comment="" editType="" length="0" precision="0" name="left" typeName="double"/>
+     <Attribute type="double" comment="" editType="" length="0" precision="0" name="top" typeName="double"/>
+     <Attribute type="double" comment="" editType="" length="0" precision="0" name="right" typeName="double"/>
+     <Attribute type="double" comment="" editType="" length="0" precision="0" name="bottom" typeName="double"/>
+     <Attribute type="qlonglong" comment="" editType="" length="0" precision="0" name="row_index" typeName="int8"/>
+     <Attribute type="qlonglong" comment="" editType="" length="0" precision="0" name="col_index" typeName="int8"/>
+    </Attributes>
+   </Layer>
+   <Layer visible="0" visibilityChecked="0" queryable="1" geometryType="Point" opacity="1" expanded="1" displayField="id">
+    <Name>Centroids</Name>
+    <Title>Centroids</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>-0.001617</westBoundLongitude>
+     <eastBoundLongitude>0.001617</eastBoundLongitude>
+     <southBoundLatitude>-0.000765</southBoundLatitude>
+     <northBoundLatitude>0.000765</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox maxy="85.06" CRS="EPSG:3857" miny="-85.06" minx="-180" maxx="180"/>
+    <BoundingBox maxy="0.001617" CRS="EPSG:4326" miny="-0.001617" minx="-0.000765" maxx="0.000765"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=Centroids&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+     </LegendURL>
+    </Style>
+    <TreeName>Centroids</TreeName>
+    <Attributes>
+     <Attribute type="double" comment="" editType="TextEdit" length="20" precision="0" name="id" typeName="double"/>
+     <Attribute type="double" comment="" editType="TextEdit" length="23" precision="15" name="left" typeName="double"/>
+     <Attribute type="double" comment="" editType="TextEdit" length="23" precision="15" name="top" typeName="double"/>
+     <Attribute type="double" comment="" editType="TextEdit" length="23" precision="15" name="right" typeName="double"/>
+     <Attribute type="double" comment="" editType="TextEdit" length="23" precision="15" name="bottom" typeName="double"/>
+     <Attribute type="double" comment="" editType="TextEdit" length="20" precision="0" name="row_index" typeName="double"/>
+     <Attribute type="double" comment="" editType="TextEdit" length="20" precision="0" name="col_index" typeName="double"/>
+     <Attribute type="double" comment="" editType="TextEdit" length="23" precision="15" name="NUMPOINTS" typeName="double"/>
+    </Attributes>
+   </Layer>
+   <Layer visible="1" visibilityChecked="1" queryable="1" geometryType="MultiPolygon" opacity="1" expanded="0" displayField="id">
+    <Name>Count</Name>
+    <Title>Count</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>60.906704</westBoundLongitude>
+     <eastBoundLongitude>68.542385</eastBoundLongitude>
+     <southBoundLatitude>20.745445</southBoundLatitude>
+     <northBoundLatitude>25.372369</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox maxy="2921551.481" CRS="EPSG:3857" miny="2361551.48" minx="6780103.317" maxx="7630103.318"/>
+    <BoundingBox maxy="68.542385" CRS="EPSG:4326" miny="60.906704" minx="20.745445" maxx="25.372369"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=Count&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+     </LegendURL>
+    </Style>
+    <TreeName>Count</TreeName>
+    <Attributes>
+     <Attribute type="double" comment="" editType="TextEdit" length="20" precision="0" name="id" typeName="Real"/>
+     <Attribute type="double" comment="" editType="TextEdit" length="23" precision="15" name="left" typeName="Real"/>
+     <Attribute type="double" comment="" editType="TextEdit" length="23" precision="15" name="top" typeName="Real"/>
+     <Attribute type="double" comment="" editType="TextEdit" length="23" precision="15" name="right" typeName="Real"/>
+     <Attribute type="double" comment="" editType="TextEdit" length="23" precision="15" name="bottom" typeName="Real"/>
+     <Attribute type="double" comment="" editType="TextEdit" length="20" precision="0" name="row_index" typeName="Real"/>
+     <Attribute type="double" comment="" editType="TextEdit" length="20" precision="0" name="col_index" typeName="Real"/>
+     <Attribute type="double" comment="" editType="TextEdit" length="23" precision="15" name="NUMPOINTS" typeName="Real"/>
+    </Attributes>
+   </Layer>
+   <Layer visible="0" visibilityChecked="0" queryable="1" geometryType="Point" opacity="1" expanded="1" displayField="vessel_name">
+    <Name>updated_file_all_years</Name>
+    <Title>updated_file_all_years</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>61.456</westBoundLongitude>
+     <eastBoundLongitude>67.8044</eastBoundLongitude>
+     <southBoundLatitude>21.1941</southBoundLatitude>
+     <northBoundLatitude>25.3928</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox maxy="2924068.917" CRS="EPSG:3857" miny="2415038.045" minx="6841250.626" maxx="7547951.282"/>
+    <BoundingBox maxy="67.8044" CRS="EPSG:4326" miny="61.456" minx="21.1941" maxx="25.3928"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=updated_file_all_years&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+     </LegendURL>
+    </Style>
+    <TreeName>updated_file_all_years</TreeName>
+    <Attributes>
+     <Attribute type="QString" comment="" editType="" length="0" precision="0" name="start" typeName="text"/>
+     <Attribute type="QString" comment="" editType="" length="0" precision="0" name="end" typeName="text"/>
+     <Attribute type="QString" comment="" editType="" length="0" precision="0" name="id" typeName="text"/>
+     <Attribute type="QString" comment="" editType="" length="0" precision="0" name="vessel_id" typeName="text"/>
+     <Attribute type="QString" comment="" editType="" length="0" precision="0" name="vessel_type" typeName="text"/>
+     <Attribute type="double" comment="" editType="" length="0" precision="0" name="position_lat" typeName="double"/>
+     <Attribute type="double" comment="" editType="" length="0" precision="0" name="position_lon" typeName="double"/>
+     <Attribute type="QString" comment="" editType="" length="0" precision="0" name="boundingBox" typeName="text"/>
+     <Attribute type="int" comment="" editType="" length="0" precision="0" name="distances_startDistanceFromShoreKm" typeName="integer"/>
+     <Attribute type="int" comment="" editType="" length="0" precision="0" name="distances_endDistanceFromShoreKm" typeName="integer"/>
+     <Attribute type="double" comment="" editType="" length="0" precision="0" name="distances_startDistanceFromPortKm" typeName="double"/>
+     <Attribute type="double" comment="" editType="" length="0" precision="0" name="distances_endDistanceFromPortKm" typeName="double"/>
+     <Attribute type="QString" comment="" editType="" length="0" precision="0" name="vessel_name" typeName="text"/>
+     <Attribute type="int" comment="" editType="" length="0" precision="0" name="vessel_ssvid" typeName="integer"/>
+     <Attribute type="QString" comment="" editType="" length="0" precision="0" name="vessel_flag" typeName="text"/>
+     <Attribute type="double" comment="" editType="" length="0" precision="0" name="fishing_totalDistanceKm" typeName="double"/>
+     <Attribute type="double" comment="" editType="" length="0" precision="0" name="fishing_averageSpeedKnots" typeName="double"/>
+     <Attribute type="double" comment="" editType="" length="0" precision="0" name="duration_hours" typeName="double"/>
+    </Attributes>
+   </Layer>
+   <Layer visible="0" visibilityChecked="0" queryable="1" geometryType="MultiPolygon" opacity="1" expanded="1" displayField="id">
+    <Name>Grid</Name>
+    <Title>Grid</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>60.906704</westBoundLongitude>
+     <eastBoundLongitude>68.542385</eastBoundLongitude>
+     <southBoundLatitude>20.745445</southBoundLatitude>
+     <northBoundLatitude>25.372369</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox maxy="2921551.481" CRS="EPSG:3857" miny="2361551.48" minx="6780103.317" maxx="7630103.318"/>
+    <BoundingBox maxy="68.542385" CRS="EPSG:4326" miny="60.906704" minx="20.745445" maxx="25.372369"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=Grid&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+     </LegendURL>
+    </Style>
+    <TreeName>Grid</TreeName>
+    <Attributes>
+     <Attribute type="double" comment="" editType="" length="20" precision="0" name="id" typeName="Real"/>
+     <Attribute type="double" comment="" editType="" length="23" precision="15" name="left" typeName="Real"/>
+     <Attribute type="double" comment="" editType="" length="23" precision="15" name="top" typeName="Real"/>
+     <Attribute type="double" comment="" editType="" length="23" precision="15" name="right" typeName="Real"/>
+     <Attribute type="double" comment="" editType="" length="23" precision="15" name="bottom" typeName="Real"/>
+     <Attribute type="double" comment="" editType="" length="20" precision="0" name="row_index" typeName="Real"/>
+     <Attribute type="double" comment="" editType="" length="20" precision="0" name="col_index" typeName="Real"/>
+    </Attributes>
+   </Layer>
+   <Layer visible="1" visibilityChecked="1" queryable="1" opacity="1" expanded="1">
+    <Name>OSM Standard</Name>
+    <Title>OSM Standard</Title>
+    <CRS>CRS:84</CRS>
+    <CRS>EPSG:4326</CRS>
+    <CRS>EPSG:3857</CRS>
+    <EX_GeographicBoundingBox>
+     <westBoundLongitude>-180</westBoundLongitude>
+     <eastBoundLongitude>180</eastBoundLongitude>
+     <southBoundLatitude>-85.051129</southBoundLatitude>
+     <northBoundLatitude>85.051129</northBoundLatitude>
+    </EX_GeographicBoundingBox>
+    <BoundingBox maxy="20037508.343" CRS="EPSG:3857" miny="-20037508.343" minx="-20037508.343" maxx="20037508.343"/>
+    <BoundingBox maxy="180" CRS="EPSG:4326" miny="-180" minx="-85.051129" maxx="85.051129"/>
+    <Style>
+     <Name>default</Name>
+     <Title>default</Title>
+     <LegendURL>
+      <Format>image/png</Format>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2FSobia%2Fheatmap.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=OSM Standard&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+     </LegendURL>
+    </Style>
+    <Attribution>
+     <Title>© OpenStreetMap contributors, CC-BY-SA</Title>
+     <OnlineResource xlink:href="https://www.openstreetmap.org/copyright" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
+    </Attribution>
+    <TreeName>OSM Standard</TreeName>
+    <WMSBackgroundLayer>0</WMSBackgroundLayer>
+   </Layer>
+  </Layer>
+  <LayerDrawingOrder>OSM Standard,Grid,updated_file_all_years,Count,Centroids,Grid_1km</LayerDrawingOrder>
+ </Capability>
+</WMS_Capabilities>

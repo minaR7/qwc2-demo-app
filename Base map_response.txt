@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WMS_Capabilities xmlns:qgs="http://www.qgis.org/wms" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd http://www.qgis.org/wms http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;SERVICE=WMS&amp;REQUEST=GetSchemaExtension" version="1.3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.opengis.net/wms" xmlns:sld="http://www.opengis.net/sld">
+<WMS_Capabilities xmlns="http://www.opengis.net/wms" version="1.3.0" xmlns:qgs="http://www.qgis.org/wms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sld="http://www.opengis.net/sld" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd http://www.qgis.org/wms http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;SERVICE=WMS&amp;REQUEST=GetSchemaExtension">
  <Service>
   <Name>WMS</Name>
   <Title>Untitled</Title>
   <KeywordList>
    <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
   </KeywordList>
-  <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz" xlink:type="simple"/>
   <Fees>conditions unknown</Fees>
   <AccessConstraints>None</AccessConstraints>
  </Service>
@@ -17,7 +17,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;" xlink:type="simple"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -33,7 +33,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;" xlink:type="simple"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -49,7 +49,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;" xlink:type="simple"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -61,7 +61,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;" xlink:type="simple"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -71,7 +71,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;" xlink:type="simple"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -81,7 +81,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;" xlink:type="simple"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -93,7 +93,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;" xlink:type="simple"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -102,7 +102,7 @@
   <Exception>
    <Format>XML</Format>
   </Exception>
-  <sld:UserDefinedSymbolization UserStyle="1" RemoteWFS="0" UserLayer="0" InlineFeature="0" SupportSLD="1" RemoteWCS="0"/>
+  <sld:UserDefinedSymbolization UserLayer="0" RemoteWFS="0" UserStyle="1" SupportSLD="1" InlineFeature="0" RemoteWCS="0"/>
   <Layer queryable="1">
    <Title>Untitled</Title>
    <KeywordList>
@@ -117,10 +117,10 @@
     <southBoundLatitude>-19.850782</southBoundLatitude>
     <northBoundLatitude>94.371516</northBoundLatitude>
    </EX_GeographicBoundingBox>
-   <BoundingBox minx="-1687727.59" maxx="19351656.171" miny="-2255362.334" CRS="EPSG:3857" maxy="44927335.428"/>
-   <BoundingBox minx="-19.850782" maxx="94.371516" miny="-15.161115" CRS="EPSG:4326" maxy="173.838886"/>
+   <BoundingBox maxy="44927335.428" CRS="EPSG:3857" minx="-1687727.59" maxx="19351656.171" miny="-2255362.334"/>
+   <BoundingBox maxy="173.838886" CRS="EPSG:4326" minx="-19.850782" maxx="94.371516" miny="-15.161115"/>
    <TreeName></TreeName>
-   <Layer displayField="date" queryable="1" geometryType="Point" opacity="1" visibilityChecked="1" expanded="1" visible="1">
+   <Layer visibilityChecked="1" displayField="date" visible="1" geometryType="Point" opacity="1" queryable="1" expanded="1">
     <Name>fdensity</Name>
     <Title>fdensity</Title>
     <CRS>CRS:84</CRS>
@@ -132,14 +132,14 @@
      <southBoundLatitude>3.309999</southBoundLatitude>
      <northBoundLatitude>246.979996</northBoundLatitude>
     </EX_GeographicBoundingBox>
-    <BoundingBox minx="-20021217.883" maxx="19701919.763" miny="368672.634" CRS="EPSG:3857" maxy="44927335.428"/>
-    <BoundingBox minx="3.309999" maxx="246.979996" miny="61.2" CRS="EPSG:4326" maxy="670.799988"/>
+    <BoundingBox maxy="44927335.428" CRS="EPSG:3857" minx="-20021217.883" maxx="19701919.763" miny="368672.634"/>
+    <BoundingBox maxy="670.799988" CRS="EPSG:4326" minx="3.309999" maxx="246.979996" miny="61.2"/>
     <Style>
      <Name>default</Name>
      <Title>default</Title>
      <LegendURL>
       <Format>image/png</Format>
-      <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=fdensity&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=fdensity&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xlink:type="simple"/>
      </LegendURL>
     </Style>
     <TreeName>fdensity</TreeName>
@@ -147,14 +147,14 @@
      <PrimaryKeyAttribute>fd_key</PrimaryKeyAttribute>
     </PrimaryKey>
     <Attributes>
-     <Attribute name="fd_key" type="int" length="-1" editType="" comment="" typeName="int4" precision="0"/>
-     <Attribute name="date" type="QString" length="50" editType="" comment="" typeName="varchar" precision="0"/>
-     <Attribute name="latitude" type="double" length="-1" editType="" comment="" typeName="float4" precision="0"/>
-     <Attribute name="longitude" type="double" length="-1" editType="" comment="" typeName="float4" precision="0"/>
-     <Attribute name="no_vessels" type="int" length="-1" editType="" comment="" typeName="int4" precision="0"/>
+     <Attribute name="fd_key" precision="0" editType="" length="-1" type="int" typeName="int4" comment=""/>
+     <Attribute name="date" precision="0" editType="" length="50" type="QString" typeName="varchar" comment=""/>
+     <Attribute name="latitude" precision="0" editType="" length="-1" type="double" typeName="float4" comment=""/>
+     <Attribute name="longitude" precision="0" editType="" length="-1" type="double" typeName="float4" comment=""/>
+     <Attribute name="no_vessels" precision="0" editType="" length="-1" type="int" typeName="int4" comment=""/>
     </Attributes>
    </Layer>
-   <Layer queryable="1" opacity="1" visibilityChecked="1" expanded="1" visible="1">
+   <Layer visibilityChecked="1" visible="1" opacity="1" queryable="1" expanded="1">
     <Name>NE2_LR_LC_SR_W</Name>
     <Title>NE2_LR_LC_SR_W</Title>
     <CRS>CRS:84</CRS>
@@ -166,14 +166,14 @@
      <southBoundLatitude>-90</southBoundLatitude>
      <northBoundLatitude>90</northBoundLatitude>
     </EX_GeographicBoundingBox>
-    <BoundingBox minx="-20037508.343" maxx="20037508.343" miny="-44927335.428" CRS="EPSG:3857" maxy="44927335.428"/>
-    <BoundingBox minx="-90" maxx="90" miny="-180" CRS="EPSG:4326" maxy="180"/>
+    <BoundingBox maxy="44927335.428" CRS="EPSG:3857" minx="-20037508.343" maxx="20037508.343" miny="-44927335.428"/>
+    <BoundingBox maxy="180" CRS="EPSG:4326" minx="-90" maxx="90" miny="-180"/>
     <Style>
      <Name>default</Name>
      <Title>default</Title>
      <LegendURL>
       <Format>image/png</Format>
-      <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=NE2_LR_LC_SR_W&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fbase_map_example.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=NE2_LR_LC_SR_W&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xlink:type="simple"/>
      </LegendURL>
     </Style>
     <TreeName>NE2_LR_LC_SR_W</TreeName>

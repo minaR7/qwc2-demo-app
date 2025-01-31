@@ -130,7 +130,7 @@ export default {
             TaskButtonPlugin: TaskButtonPlugin,
             ThemeSwitcherPlugin: ThemeSwitcherPlugin,
             TimeManagerPlugin: TimeManagerPlugin,
-            // MyReactMapPlugin: MyReactMapPlugin,
+            MyReactMapPlugin: MyReactMapPlugin,
             TopBarPlugin: TopBarPlugin({
                 AppMenu: AppMenu,
                 Search: SearchBox,

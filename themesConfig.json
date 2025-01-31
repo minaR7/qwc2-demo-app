@@ -15,13 +15,6 @@
                   ]
             },
             {
-                "name": "simple_world",
-                "title": "Vector Data",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/simple_world.qgz",
-                "srs": "EPSG:4326",
-                "thumbnail":"ign.png"
-            },
-            {
                 "name": "base_map_example",
                 "title": "Base map",
                 "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/base_map_example.qgz",
@@ -87,19 +80,6 @@
                     "VERSION": "1.3.0",
                     "SRS": "EPSG:3857",
                     "MAP": "D:/QGIS/Projects/fishingheatmap.qgz"
-                }
-            },
-            {
-                "name": "simple_world",
-                "title": "Fishing Heat Map",
-                "type": "wms",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/simple_world.qgz",
-                "params": {
-                    "LAYERS": "default",
-                    "STYLES": "default",
-                    "VERSION": "1.3.0",
-                    "SRS": "EPSG:3857",
-                    "MAP": "D:/QGIS/Projects/simple_world.qgz"
                 }
             },
             {

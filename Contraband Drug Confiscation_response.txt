@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WMS_Capabilities xmlns:qgs="http://www.qgis.org/wms" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd http://www.qgis.org/wms http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;SERVICE=WMS&amp;REQUEST=GetSchemaExtension" version="1.3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.opengis.net/wms" xmlns:sld="http://www.opengis.net/sld">
+<WMS_Capabilities xmlns:sld="http://www.opengis.net/sld" xmlns:qgs="http://www.qgis.org/wms" xmlns="http://www.opengis.net/wms" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd http://www.qgis.org/wms http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;SERVICE=WMS&amp;REQUEST=GetSchemaExtension" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
  <Service>
   <Name>WMS</Name>
   <Title>Untitled</Title>
   <KeywordList>
    <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
   </KeywordList>
-  <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz"/>
   <Fees>conditions unknown</Fees>
   <AccessConstraints>None</AccessConstraints>
  </Service>
@@ -17,7 +17,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -33,7 +33,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -49,7 +49,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -61,7 +61,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -71,7 +71,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -81,7 +81,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -93,7 +93,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -102,10 +102,10 @@
   <Exception>
    <Format>XML</Format>
   </Exception>
-  <sld:UserDefinedSymbolization UserStyle="1" RemoteWFS="0" UserLayer="0" InlineFeature="0" SupportSLD="1" RemoteWCS="0"/>
+  <sld:UserDefinedSymbolization SupportSLD="1" RemoteWCS="0" RemoteWFS="0" UserLayer="0" UserStyle="1" InlineFeature="0"/>
   <ComposerTemplates>
-   <ComposerTemplate width="297" name="narco-print" height="210">
-    <ComposerMap width="236.66200000000001" name="map0" itemName="Map 1" height="167.62407701283541"/>
+   <ComposerTemplate height="210" name="narco-print" width="297">
+    <ComposerMap height="167.62407701283541" name="map0" itemName="Map 1" width="236.66200000000001"/>
    </ComposerTemplate>
   </ComposerTemplates>
   <Layer queryable="1">
@@ -122,10 +122,10 @@
     <southBoundLatitude>11.999093</southBoundLatitude>
     <northBoundLatitude>37.199094</northBoundLatitude>
    </EX_GeographicBoundingBox>
-   <BoundingBox minx="5517515.55" maxx="9824790.967" miny="1345605.26" CRS="EPSG:3857" maxy="4466894.327"/>
-   <BoundingBox minx="11.999093" maxx="37.199094" miny="49.564685" CRS="EPSG:4326" maxy="88.257599"/>
+   <BoundingBox minx="5517515.55" maxx="9824790.967" CRS="EPSG:3857" maxy="4466894.327" miny="1345605.26"/>
+   <BoundingBox minx="11.999093" maxx="37.199094" CRS="EPSG:4326" maxy="88.257599" miny="49.564685"/>
    <TreeName></TreeName>
-   <Layer displayField="vessel_name" queryable="1" geometryType="Point" opacity="1" visibilityChecked="1" expanded="0" visible="1">
+   <Layer displayField="vessel_name" expanded="0" visible="1" visibilityChecked="1" queryable="1" opacity="1" geometryType="Point">
     <Name>narco</Name>
     <Title>narco</Title>
     <CRS>CRS:84</CRS>
@@ -137,14 +137,14 @@
      <southBoundLatitude>22.129999</southBoundLatitude>
      <northBoundLatitude>25.13</northBoundLatitude>
     </EX_GeographicBoundingBox>
-    <BoundingBox minx="6830564.023" maxx="7060995.335" miny="2527140.357" CRS="EPSG:3857" maxy="2891720.559"/>
-    <BoundingBox minx="22.129999" maxx="25.13" miny="61.36" CRS="EPSG:4326" maxy="63.430001"/>
+    <BoundingBox minx="6830564.023" maxx="7060995.335" CRS="EPSG:3857" maxy="2891720.559" miny="2527140.357"/>
+    <BoundingBox minx="22.129999" maxx="25.13" CRS="EPSG:4326" maxy="63.430001" miny="61.36"/>
     <Style>
      <Name>default</Name>
      <Title>default</Title>
      <LegendURL>
       <Format>image/png</Format>
-      <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=narco&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=narco&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
      </LegendURL>
     </Style>
     <TreeName>narco</TreeName>
@@ -152,20 +152,20 @@
      <PrimaryKeyAttribute>n_key</PrimaryKeyAttribute>
     </PrimaryKey>
     <Attributes>
-     <Attribute name="n_key" type="int" length="-1" editType="Range" comment="" typeName="int4" precision="0"/>
-     <Attribute name="dtg" type="QDate" length="-1" editType="DateTime" comment="" typeName="date" precision="0"/>
-     <Attribute name="latitude" type="double" length="-1" editType="TextEdit" comment="" typeName="float4" precision="0"/>
-     <Attribute name="longitude" type="double" length="-1" editType="TextEdit" comment="" typeName="float4" precision="0"/>
-     <Attribute name="value" type="qlonglong" length="-1" editType="TextEdit" comment="" typeName="int8" precision="0"/>
-     <Attribute name="flag" type="QString" length="50" editType="TextEdit" comment="" typeName="varchar" precision="0"/>
-     <Attribute name="item" type="QString" length="50" editType="TextEdit" comment="" typeName="varchar" precision="0"/>
-     <Attribute name="quantity" type="int" length="-1" editType="Range" comment="" typeName="int4" precision="0"/>
-     <Attribute name="vessel_name" type="QString" length="50" editType="TextEdit" comment="" typeName="varchar" precision="0"/>
-     <Attribute name="category" type="QString" length="50" editType="TextEdit" comment="" typeName="varchar" precision="0"/>
-     <Attribute name="source" type="QString" length="50" editType="TextEdit" comment="" typeName="varchar" alias="Source" precision="0"/>
+     <Attribute type="int" editType="Range" length="-1" comment="" precision="0" typeName="int4" name="n_key"/>
+     <Attribute type="QDate" editType="DateTime" length="-1" comment="" precision="0" typeName="date" name="dtg"/>
+     <Attribute type="double" editType="TextEdit" length="-1" comment="" precision="0" typeName="float4" name="latitude"/>
+     <Attribute type="double" editType="TextEdit" length="-1" comment="" precision="0" typeName="float4" name="longitude"/>
+     <Attribute type="qlonglong" editType="TextEdit" length="-1" comment="" precision="0" typeName="int8" name="value"/>
+     <Attribute type="QString" editType="TextEdit" length="50" comment="" precision="0" typeName="varchar" name="flag"/>
+     <Attribute type="QString" editType="TextEdit" length="50" comment="" precision="0" typeName="varchar" name="item"/>
+     <Attribute type="int" editType="Range" length="-1" comment="" precision="0" typeName="int4" name="quantity"/>
+     <Attribute type="QString" editType="TextEdit" length="50" comment="" precision="0" typeName="varchar" name="vessel_name"/>
+     <Attribute type="QString" editType="TextEdit" length="50" comment="" precision="0" typeName="varchar" name="category"/>
+     <Attribute type="QString" editType="TextEdit" length="50" comment="" alias="Source" precision="0" typeName="varchar" name="source"/>
     </Attributes>
    </Layer>
-   <Layer queryable="1" opacity="1" visibilityChecked="1" expanded="0" visible="1">
+   <Layer expanded="0" visible="1" visibilityChecked="1" queryable="1" opacity="1">
     <Name>OpenStreetMap</Name>
     <Title>OpenStreetMap</Title>
     <CRS>CRS:84</CRS>
@@ -177,14 +177,14 @@
      <southBoundLatitude>-85.051129</southBoundLatitude>
      <northBoundLatitude>85.051129</northBoundLatitude>
     </EX_GeographicBoundingBox>
-    <BoundingBox minx="-20037508.343" maxx="20037508.343" miny="-20037508.343" CRS="EPSG:3857" maxy="20037508.343"/>
-    <BoundingBox minx="-85.051129" maxx="85.051129" miny="-180" CRS="EPSG:4326" maxy="180"/>
+    <BoundingBox minx="-20037508.343" maxx="20037508.343" CRS="EPSG:3857" maxy="20037508.343" miny="-20037508.343"/>
+    <BoundingBox minx="-85.051129" maxx="85.051129" CRS="EPSG:4326" maxy="180" miny="-180"/>
     <Style>
      <Name>default</Name>
      <Title>default</Title>
      <LegendURL>
       <Format>image/png</Format>
-      <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=OpenStreetMap&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fnarco.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=OpenStreetMap&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
      </LegendURL>
     </Style>
     <TreeName>OpenStreetMap</TreeName>
