@@ -2,6 +2,19 @@
     "themes": {
         "items": [
             {
+                "name": "fishingdensityheatmap",
+                "title": "Fishing Heat Map",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/jmicc_fishing_density_map.qgz",
+                "srs": "EPSG:3857",
+                "thumbnail":"ign.png",
+                "extent": [
+                    6679162.241,
+                    1118889.974,
+                    8686658.346,
+                    4487348.408
+                  ]
+            },
+            {
                 "name": "fishingheatmap",
                 "title": "Fishing Heat Map",
                 "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/fishingheatmap.qgz",

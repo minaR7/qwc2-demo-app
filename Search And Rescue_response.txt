@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:sld="http://www.opengis.net/sld" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd http://www.qgis.org/wms http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;SERVICE=WMS&amp;REQUEST=GetSchemaExtension" xmlns:qgs="http://www.qgis.org/wms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<WMS_Capabilities xmlns:qgs="http://www.qgis.org/wms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3.0" xmlns:sld="http://www.opengis.net/sld" xmlns="http://www.opengis.net/wms" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd http://www.qgis.org/wms http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;SERVICE=WMS&amp;REQUEST=GetSchemaExtension">
  <Service>
   <Name>WMS</Name>
   <Title>Untitled</Title>
   <KeywordList>
    <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
   </KeywordList>
-  <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+  <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz"/>
   <Fees>conditions unknown</Fees>
   <AccessConstraints>None</AccessConstraints>
  </Service>
@@ -17,7 +17,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -33,7 +33,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -49,7 +49,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -61,7 +61,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -71,7 +71,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -81,7 +81,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -93,7 +93,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -102,7 +102,7 @@
   <Exception>
    <Format>XML</Format>
   </Exception>
-  <sld:UserDefinedSymbolization UserStyle="1" RemoteWCS="0" SupportSLD="1" RemoteWFS="0" InlineFeature="0" UserLayer="0"/>
+  <sld:UserDefinedSymbolization RemoteWFS="0" UserLayer="0" RemoteWCS="0" SupportSLD="1" UserStyle="1" InlineFeature="0"/>
   <Layer queryable="1">
    <Title>Untitled</Title>
    <KeywordList>
@@ -116,9 +116,9 @@
     <southBoundLatitude>-90</southBoundLatitude>
     <northBoundLatitude>90</northBoundLatitude>
    </EX_GeographicBoundingBox>
-   <BoundingBox CRS="EPSG:4326" miny="-180" maxy="180" minx="-90" maxx="90"/>
+   <BoundingBox CRS="EPSG:4326" maxy="180" minx="-90" miny="-180" maxx="90"/>
    <TreeName></TreeName>
-   <Layer opacity="1" geometryType="Point" queryable="1" visible="1" expanded="1" displayField="BOAT NAME" visibilityChecked="1">
+   <Layer queryable="1" expanded="1" visibilityChecked="1" visible="1" displayField="BOAT NAME" opacity="1" geometryType="Point">
     <Name>search_and_rescue</Name>
     <Title>search_and_rescue</Title>
     <CRS>CRS:84</CRS>
@@ -129,13 +129,13 @@
      <southBoundLatitude>18.754</southBoundLatitude>
      <northBoundLatitude>25.001</northBoundLatitude>
     </EX_GeographicBoundingBox>
-    <BoundingBox CRS="EPSG:4326" miny="59.744" maxy="67.8644" minx="18.754" maxx="25.001"/>
+    <BoundingBox CRS="EPSG:4326" maxy="67.8644" minx="18.754" miny="59.744" maxx="25.001"/>
     <Style>
      <Name>default</Name>
      <Title>default</Title>
      <LegendURL>
       <Format>image/png</Format>
-      <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=search_and_rescue&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=search_and_rescue&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
      </LegendURL>
     </Style>
     <TreeName>search_and_rescue</TreeName>
@@ -143,32 +143,32 @@
      <PrimaryKeyAttribute>sar_key</PrimaryKeyAttribute>
     </PrimaryKey>
     <Attributes>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="KEY" name="sar_key" type="int" typeName="int4" length="-1"/>
-     <Attribute comment="" precision="0" editType="DateTime" alias="DTG" name="sar_dtg" type="QDateTime" typeName="timestamptz" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="UNIT" name="sar_unit" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="BOAT NAME" name="sar_boat_name" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="REG NO." name="sar_regno" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="COUNTRY" name="sar_country" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="NO OF CREW" name="sar_crew" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="UNIT SIZE" name="sar_unit_size" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="NO OF LIVES SAVED" name="sar_lives_saved" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="NO OF LIVES LOST" name="sar_lives_lost" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="NO OF PERSON ASSISTED" name="sar_person_assisted" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="VALUE OF PROPERTY SAVED" name="sar_value_property_saved" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="VALUE OF PROPERTY LOST" name="sar_value_property_lost" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="PROPERTY LOSS PREVENTED" name="sar_prevented_property_lost" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="ALERTING TYPE" name="sar_alerting_type" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="DISTRESS METHOD" name="sar_distress_method" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="SOURCE" name="sar_table" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="REMARKS" name="sar_remarks" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="NATURE" name="sar_nature" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="ASSISTANCE TYPE" name="sar_assistance_type" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="DateTime" alias="RDT" name="sar_rdt" type="QDateTime" typeName="timestamptz" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="INCIDENT" name="sar_incidents" type="QString" typeName="varchar" length="-1"/>
-     <Attribute comment="" precision="0" editType="TextEdit" alias="RESPONSE" name="sar_response" type="QString" typeName="varchar" length="-1"/>
+     <Attribute name="sar_key" editType="TextEdit" precision="0" alias="KEY" type="int" length="-1" comment="" typeName="int4"/>
+     <Attribute name="sar_dtg" editType="DateTime" precision="0" alias="DTG" type="QDateTime" length="-1" comment="" typeName="timestamptz"/>
+     <Attribute name="sar_unit" editType="TextEdit" precision="0" alias="UNIT" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_boat_name" editType="TextEdit" precision="0" alias="BOAT NAME" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_regno" editType="TextEdit" precision="0" alias="REG NO." type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_country" editType="TextEdit" precision="0" alias="COUNTRY" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_crew" editType="TextEdit" precision="0" alias="NO OF CREW" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_unit_size" editType="TextEdit" precision="0" alias="UNIT SIZE" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_lives_saved" editType="TextEdit" precision="0" alias="NO OF LIVES SAVED" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_lives_lost" editType="TextEdit" precision="0" alias="NO OF LIVES LOST" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_person_assisted" editType="TextEdit" precision="0" alias="NO OF PERSON ASSISTED" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_value_property_saved" editType="TextEdit" precision="0" alias="VALUE OF PROPERTY SAVED" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_value_property_lost" editType="TextEdit" precision="0" alias="VALUE OF PROPERTY LOST" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_prevented_property_lost" editType="TextEdit" precision="0" alias="PROPERTY LOSS PREVENTED" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_alerting_type" editType="TextEdit" precision="0" alias="ALERTING TYPE" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_distress_method" editType="TextEdit" precision="0" alias="DISTRESS METHOD" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_table" editType="TextEdit" precision="0" alias="SOURCE" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_remarks" editType="TextEdit" precision="0" alias="REMARKS" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_nature" editType="TextEdit" precision="0" alias="NATURE" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_assistance_type" editType="TextEdit" precision="0" alias="ASSISTANCE TYPE" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_rdt" editType="DateTime" precision="0" alias="RDT" type="QDateTime" length="-1" comment="" typeName="timestamptz"/>
+     <Attribute name="sar_incidents" editType="TextEdit" precision="0" alias="INCIDENT" type="QString" length="-1" comment="" typeName="varchar"/>
+     <Attribute name="sar_response" editType="TextEdit" precision="0" alias="RESPONSE" type="QString" length="-1" comment="" typeName="varchar"/>
     </Attributes>
    </Layer>
-   <Layer opacity="1" queryable="1" visible="1" expanded="1" visibilityChecked="1">
+   <Layer queryable="1" expanded="1" visibilityChecked="1" visible="1" opacity="1">
     <Name>OpenStreetMap</Name>
     <Title>OpenStreetMap</Title>
     <CRS>CRS:84</CRS>
@@ -179,13 +179,13 @@
      <southBoundLatitude>-85.051129</southBoundLatitude>
      <northBoundLatitude>85.051129</northBoundLatitude>
     </EX_GeographicBoundingBox>
-    <BoundingBox CRS="EPSG:4326" miny="-180" maxy="180" minx="-85.051129" maxx="85.051129"/>
+    <BoundingBox CRS="EPSG:4326" maxy="180" minx="-85.051129" miny="-180" maxx="85.051129"/>
     <Style>
      <Name>default</Name>
      <Title>default</Title>
      <LegendURL>
       <Format>image/png</Format>
-      <OnlineResource xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=OpenStreetMap&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fsearch_and_rescue.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=OpenStreetMap&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
      </LegendURL>
     </Style>
     <TreeName>OpenStreetMap</TreeName>
