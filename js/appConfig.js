@@ -21,6 +21,7 @@ import CyclomediaPlugin from 'qwc2/plugins/Cyclomedia';
 import EditingPlugin from 'qwc2/plugins/Editing';
 import FeatureFormPlugin from 'qwc2/plugins/FeatureForm';
 import FeatureSearchPlugin from 'qwc2/plugins/FeatureSearch';
+import Filters from 'qwc2/components/Filters';
 import GeometryDigitizerPlugin from 'qwc2/plugins/GeometryDigitizer';
 import HeightProfilePlugin from 'qwc2/plugins/HeightProfile';
 import HelpPlugin from 'qwc2/plugins/Help';
@@ -135,7 +136,8 @@ export default {
                 AppMenu: AppMenu,
                 Search: SearchBox,
                 Toolbar: Toolbar,
-                FullscreenSwitcher: FullscreenSwitcher
+                FullscreenSwitcher: FullscreenSwitcher,
+                Filters: Filters
             }),
             ZoomInPlugin: ZoomInPlugin,
             ZoomOutPlugin: ZoomOutPlugin,

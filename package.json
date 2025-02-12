@@ -35,6 +35,7 @@
         "release": "node -e \"process.exit(require('os').platform() === 'win32' ? 0 : 1)\" && qwc2\\scripts\\package-commands.bat release || ./qwc2/scripts/package-commands.sh release"
     },
     "dependencies": {
+        "antd": "^5.24.0",
         "ol": "^10.3.1",
         "three": "^0.171.0"
     }

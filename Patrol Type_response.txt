@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WMS_Capabilities xmlns="http://www.opengis.net/wms" xmlns:qgs="http://www.qgis.org/wms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd http://www.qgis.org/wms http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;SERVICE=WMS&amp;REQUEST=GetSchemaExtension" xmlns:sld="http://www.opengis.net/sld" version="1.3.0">
+<WMS_Capabilities xmlns:sld="http://www.opengis.net/sld" version="1.3.0" xsi:schemaLocation="http://www.opengis.net/wms http://schemas.opengis.net/wms/1.3.0/capabilities_1_3_0.xsd http://www.opengis.net/sld http://schemas.opengis.net/sld/1.1.0/sld_capabilities.xsd http://www.qgis.org/wms http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;SERVICE=WMS&amp;REQUEST=GetSchemaExtension" xmlns:qgs="http://www.qgis.org/wms" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.opengis.net/wms">
  <Service>
   <Name>WMS</Name>
   <Title>Untitled</Title>
   <KeywordList>
    <Keyword vocabulary="ISO">infoMapAccessService</Keyword>
   </KeywordList>
-  <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz"/>
+  <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
   <Fees>conditions unknown</Fees>
   <AccessConstraints>None</AccessConstraints>
  </Service>
@@ -17,7 +17,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;"/>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -33,7 +33,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;"/>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -49,7 +49,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;"/>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -61,7 +61,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;"/>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -71,7 +71,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;"/>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -81,7 +81,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;"/>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -93,7 +93,7 @@
     <DCPType>
      <HTTP>
       <Get>
-       <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;"/>
+       <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
       </Get>
      </HTTP>
     </DCPType>
@@ -102,7 +102,7 @@
   <Exception>
    <Format>XML</Format>
   </Exception>
-  <sld:UserDefinedSymbolization InlineFeature="0" RemoteWFS="0" SupportSLD="1" UserLayer="0" RemoteWCS="0" UserStyle="1"/>
+  <sld:UserDefinedSymbolization InlineFeature="0" SupportSLD="1" UserStyle="1" RemoteWFS="0" UserLayer="0" RemoteWCS="0"/>
   <Layer queryable="1">
    <Title>Untitled</Title>
    <KeywordList>
@@ -116,9 +116,9 @@
     <southBoundLatitude>-90</southBoundLatitude>
     <northBoundLatitude>90</northBoundLatitude>
    </EX_GeographicBoundingBox>
-   <BoundingBox maxy="180" miny="-180" minx="-90" CRS="EPSG:4326" maxx="90"/>
+   <BoundingBox maxx="90" CRS="EPSG:4326" minx="-90" miny="-180" maxy="180"/>
    <TreeName></TreeName>
-   <Layer geometryType="Point" opacity="1" expanded="0" displayField="ssr_boat_name" visible="1" queryable="1" visibilityChecked="1">
+   <Layer visible="1" queryable="1" geometryType="Point" opacity="1" displayField="ssr_boat_name" expanded="0" visibilityChecked="1">
     <Name>Anti-Narcotics</Name>
     <Title>Anti-Narcotics</Title>
     <CRS>CRS:84</CRS>
@@ -129,13 +129,13 @@
      <southBoundLatitude>22.15327</southBoundLatitude>
      <northBoundLatitude>25.2554</northBoundLatitude>
     </EX_GeographicBoundingBox>
-    <BoundingBox maxy="91.78183" miny="45.26543" minx="22.15327" CRS="EPSG:4326" maxx="25.2554"/>
+    <BoundingBox maxx="25.2554" CRS="EPSG:4326" minx="22.15327" miny="45.26543" maxy="91.78183"/>
     <Style>
      <Name>default</Name>
      <Title>default</Title>
      <LegendURL>
       <Format>image/png</Format>
-      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=Anti-Narcotics&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=Anti-Narcotics&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
      </LegendURL>
     </Style>
     <TreeName>Anti-Narcotics</TreeName>
@@ -143,63 +143,63 @@
      <PrimaryKeyAttribute>ssr_key</PrimaryKeyAttribute>
     </PrimaryKey>
     <Attributes>
-     <Attribute comment="" length="-1" editType="TextEdit" type="int" precision="0" typeName="int4" name="ssr_key"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDateTime" precision="0" typeName="timestamptz" name="ssr_dtg"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_own_ship"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_country"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_no_of_crew"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_price"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_remarks"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_dep_date"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_issue_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_pc_issue_place"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_pc_days"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_expiry_date"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_overdue"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_legal"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_dep_jetty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_trans"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_eta"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_course"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_speed"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_no_of_fvs"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_sfd_bfd"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_table"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_coi"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_name"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_regno"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_village"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_arrival_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_location"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_qty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_gears"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_fish_position"/>
-     <Attribute comment="" length="-1" editType="Range" type="int" precision="0" typeName="int4" name="ssr_patroltype"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_actiontype"/>
-     <Attribute comment="" length="-1" editType="Range" type="int" precision="0" typeName="int4" name="ssr_fuelrem"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_length"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_breadth"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_id"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_year"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_time"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_sail_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_intel_detail"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDateTime" precision="0" typeName="timestamptz" name="ssr_rdt"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_dtg_str"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_cod_end_qty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_fish_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_cargo_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_mobile_no"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_drug_liquor_diesel"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_jetty_owner"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_b_ops"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_deployment"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_activity"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_ifv_cleared"/>
+     <Attribute comment="" name="ssr_key" editType="TextEdit" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_dtg" editType="DateTime" length="-1" precision="0" typeName="timestamptz" type="QDateTime"/>
+     <Attribute comment="" name="ssr_own_ship" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_country" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_no_of_crew" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_price" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_remarks" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_dep_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_issue_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_issue_place" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_pc_days" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_pc_expiry_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_overdue" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_legal" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_dep_jetty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_trans" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_eta" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_course" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_speed" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_no_of_fvs" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_sfd_bfd" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_table" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_coi" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_boat_name" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_regno" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_village" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_arrival_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_location" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_qty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_gears" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fish_position" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_patroltype" editType="Range" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_actiontype" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fuelrem" editType="Range" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_boat_length" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_breadth" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_id" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_year" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_time" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_sail_date" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_intel_detail" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_rdt" editType="DateTime" length="-1" precision="0" typeName="timestamptz" type="QDateTime"/>
+     <Attribute comment="" name="ssr_dtg_str" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_cod_end_qty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fish_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_cargo_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_mobile_no" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_drug_liquor_diesel" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_jetty_owner" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_b_ops" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_deployment" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_activity" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_ifv_cleared" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
     </Attributes>
    </Layer>
-   <Layer geometryType="Point" opacity="1" expanded="0" displayField="ssr_boat_name" visible="1" queryable="1" visibilityChecked="1">
+   <Layer visible="1" queryable="1" geometryType="Point" opacity="1" displayField="ssr_boat_name" expanded="0" visibilityChecked="1">
     <Name>Anti-Poaching</Name>
     <Title>Anti-Poaching</Title>
     <CRS>CRS:84</CRS>
@@ -210,13 +210,13 @@
      <southBoundLatitude>22.15327</southBoundLatitude>
      <northBoundLatitude>25.2554</northBoundLatitude>
     </EX_GeographicBoundingBox>
-    <BoundingBox maxy="91.78183" miny="45.26543" minx="22.15327" CRS="EPSG:4326" maxx="25.2554"/>
+    <BoundingBox maxx="25.2554" CRS="EPSG:4326" minx="22.15327" miny="45.26543" maxy="91.78183"/>
     <Style>
      <Name>default</Name>
      <Title>default</Title>
      <LegendURL>
       <Format>image/png</Format>
-      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=Anti-Poaching&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=Anti-Poaching&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
      </LegendURL>
     </Style>
     <TreeName>Anti-Poaching</TreeName>
@@ -224,63 +224,63 @@
      <PrimaryKeyAttribute>ssr_key</PrimaryKeyAttribute>
     </PrimaryKey>
     <Attributes>
-     <Attribute comment="" length="-1" editType="TextEdit" type="int" precision="0" typeName="int4" name="ssr_key"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDateTime" precision="0" typeName="timestamptz" name="ssr_dtg"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_own_ship"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_country"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_no_of_crew"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_price"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_remarks"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_dep_date"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_issue_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_pc_issue_place"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_pc_days"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_expiry_date"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_overdue"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_legal"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_dep_jetty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_trans"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_eta"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_course"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_speed"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_no_of_fvs"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_sfd_bfd"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_table"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_coi"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_name"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_regno"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_village"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_arrival_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_location"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_qty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_gears"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_fish_position"/>
-     <Attribute comment="" length="-1" editType="Range" type="int" precision="0" typeName="int4" name="ssr_patroltype"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_actiontype"/>
-     <Attribute comment="" length="-1" editType="Range" type="int" precision="0" typeName="int4" name="ssr_fuelrem"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_length"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_breadth"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_id"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_year"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_time"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_sail_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_intel_detail"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDateTime" precision="0" typeName="timestamptz" name="ssr_rdt"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_dtg_str"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_cod_end_qty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_fish_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_cargo_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_mobile_no"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_drug_liquor_diesel"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_jetty_owner"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_b_ops"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_deployment"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_activity"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_ifv_cleared"/>
+     <Attribute comment="" name="ssr_key" editType="TextEdit" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_dtg" editType="DateTime" length="-1" precision="0" typeName="timestamptz" type="QDateTime"/>
+     <Attribute comment="" name="ssr_own_ship" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_country" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_no_of_crew" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_price" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_remarks" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_dep_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_issue_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_issue_place" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_pc_days" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_pc_expiry_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_overdue" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_legal" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_dep_jetty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_trans" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_eta" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_course" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_speed" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_no_of_fvs" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_sfd_bfd" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_table" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_coi" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_boat_name" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_regno" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_village" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_arrival_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_location" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_qty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_gears" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fish_position" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_patroltype" editType="Range" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_actiontype" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fuelrem" editType="Range" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_boat_length" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_breadth" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_id" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_year" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_time" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_sail_date" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_intel_detail" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_rdt" editType="DateTime" length="-1" precision="0" typeName="timestamptz" type="QDateTime"/>
+     <Attribute comment="" name="ssr_dtg_str" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_cod_end_qty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fish_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_cargo_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_mobile_no" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_drug_liquor_diesel" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_jetty_owner" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_b_ops" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_deployment" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_activity" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_ifv_cleared" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
     </Attributes>
    </Layer>
-   <Layer geometryType="Point" opacity="1" expanded="0" displayField="ssr_boat_name" visible="1" queryable="1" visibilityChecked="1">
+   <Layer visible="1" queryable="1" geometryType="Point" opacity="1" displayField="ssr_boat_name" expanded="0" visibilityChecked="1">
     <Name>Anti-Smuggling</Name>
     <Title>Anti-Smuggling</Title>
     <CRS>CRS:84</CRS>
@@ -291,13 +291,13 @@
      <southBoundLatitude>22.15327</southBoundLatitude>
      <northBoundLatitude>25.2554</northBoundLatitude>
     </EX_GeographicBoundingBox>
-    <BoundingBox maxy="91.78183" miny="45.26543" minx="22.15327" CRS="EPSG:4326" maxx="25.2554"/>
+    <BoundingBox maxx="25.2554" CRS="EPSG:4326" minx="22.15327" miny="45.26543" maxy="91.78183"/>
     <Style>
      <Name>default</Name>
      <Title>default</Title>
      <LegendURL>
       <Format>image/png</Format>
-      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=Anti-Smuggling&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=Anti-Smuggling&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
      </LegendURL>
     </Style>
     <TreeName>Anti-Smuggling</TreeName>
@@ -305,63 +305,63 @@
      <PrimaryKeyAttribute>ssr_key</PrimaryKeyAttribute>
     </PrimaryKey>
     <Attributes>
-     <Attribute comment="" length="-1" editType="TextEdit" type="int" precision="0" typeName="int4" name="ssr_key"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDateTime" precision="0" typeName="timestamptz" name="ssr_dtg"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_own_ship"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_country"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_no_of_crew"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_price"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_remarks"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_dep_date"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_issue_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_pc_issue_place"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_pc_days"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_expiry_date"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_overdue"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_legal"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_dep_jetty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_trans"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_eta"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_course"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_speed"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_no_of_fvs"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_sfd_bfd"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_table"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_coi"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_name"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_regno"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_village"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_arrival_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_location"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_qty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_gears"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_fish_position"/>
-     <Attribute comment="" length="-1" editType="Range" type="int" precision="0" typeName="int4" name="ssr_patroltype"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_actiontype"/>
-     <Attribute comment="" length="-1" editType="Range" type="int" precision="0" typeName="int4" name="ssr_fuelrem"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_length"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_breadth"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_id"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_year"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_time"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_sail_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_intel_detail"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDateTime" precision="0" typeName="timestamptz" name="ssr_rdt"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_dtg_str"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_cod_end_qty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_fish_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_cargo_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_mobile_no"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_drug_liquor_diesel"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_jetty_owner"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_b_ops"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_deployment"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_activity"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_ifv_cleared"/>
+     <Attribute comment="" name="ssr_key" editType="TextEdit" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_dtg" editType="DateTime" length="-1" precision="0" typeName="timestamptz" type="QDateTime"/>
+     <Attribute comment="" name="ssr_own_ship" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_country" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_no_of_crew" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_price" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_remarks" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_dep_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_issue_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_issue_place" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_pc_days" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_pc_expiry_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_overdue" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_legal" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_dep_jetty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_trans" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_eta" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_course" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_speed" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_no_of_fvs" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_sfd_bfd" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_table" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_coi" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_boat_name" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_regno" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_village" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_arrival_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_location" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_qty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_gears" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fish_position" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_patroltype" editType="Range" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_actiontype" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fuelrem" editType="Range" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_boat_length" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_breadth" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_id" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_year" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_time" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_sail_date" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_intel_detail" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_rdt" editType="DateTime" length="-1" precision="0" typeName="timestamptz" type="QDateTime"/>
+     <Attribute comment="" name="ssr_dtg_str" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_cod_end_qty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fish_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_cargo_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_mobile_no" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_drug_liquor_diesel" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_jetty_owner" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_b_ops" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_deployment" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_activity" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_ifv_cleared" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
     </Attributes>
    </Layer>
-   <Layer geometryType="Point" opacity="1" expanded="0" displayField="ssr_boat_name" visible="1" queryable="1" visibilityChecked="1">
+   <Layer visible="1" queryable="1" geometryType="Point" opacity="1" displayField="ssr_boat_name" expanded="0" visibilityChecked="1">
     <Name>Cod-End</Name>
     <Title>Cod-End</Title>
     <CRS>CRS:84</CRS>
@@ -372,13 +372,13 @@
      <southBoundLatitude>22.15327</southBoundLatitude>
      <northBoundLatitude>25.2554</northBoundLatitude>
     </EX_GeographicBoundingBox>
-    <BoundingBox maxy="91.78183" miny="45.26543" minx="22.15327" CRS="EPSG:4326" maxx="25.2554"/>
+    <BoundingBox maxx="25.2554" CRS="EPSG:4326" minx="22.15327" miny="45.26543" maxy="91.78183"/>
     <Style>
      <Name>default</Name>
      <Title>default</Title>
      <LegendURL>
       <Format>image/png</Format>
-      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=Cod-End&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=Cod-End&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
      </LegendURL>
     </Style>
     <TreeName>Cod-End</TreeName>
@@ -386,63 +386,63 @@
      <PrimaryKeyAttribute>ssr_key</PrimaryKeyAttribute>
     </PrimaryKey>
     <Attributes>
-     <Attribute comment="" length="-1" editType="TextEdit" type="int" precision="0" typeName="int4" name="ssr_key"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDateTime" precision="0" typeName="timestamptz" name="ssr_dtg"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_own_ship"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_country"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_no_of_crew"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_price"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_remarks"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_dep_date"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_issue_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_pc_issue_place"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_pc_days"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_expiry_date"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_overdue"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_legal"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_dep_jetty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_trans"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_eta"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_course"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_speed"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_no_of_fvs"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_sfd_bfd"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_table"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_coi"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_name"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_regno"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_village"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_arrival_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_location"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_qty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_gears"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_fish_position"/>
-     <Attribute comment="" length="-1" editType="Range" type="int" precision="0" typeName="int4" name="ssr_patroltype"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_actiontype"/>
-     <Attribute comment="" length="-1" editType="Range" type="int" precision="0" typeName="int4" name="ssr_fuelrem"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_length"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_breadth"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_id"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_year"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_time"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_sail_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_intel_detail"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDateTime" precision="0" typeName="timestamptz" name="ssr_rdt"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_dtg_str"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_cod_end_qty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_fish_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_cargo_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_mobile_no"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_drug_liquor_diesel"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_jetty_owner"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_b_ops"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_deployment"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_activity"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_ifv_cleared"/>
+     <Attribute comment="" name="ssr_key" editType="TextEdit" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_dtg" editType="DateTime" length="-1" precision="0" typeName="timestamptz" type="QDateTime"/>
+     <Attribute comment="" name="ssr_own_ship" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_country" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_no_of_crew" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_price" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_remarks" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_dep_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_issue_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_issue_place" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_pc_days" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_pc_expiry_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_overdue" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_legal" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_dep_jetty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_trans" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_eta" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_course" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_speed" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_no_of_fvs" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_sfd_bfd" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_table" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_coi" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_boat_name" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_regno" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_village" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_arrival_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_location" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_qty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_gears" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fish_position" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_patroltype" editType="Range" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_actiontype" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fuelrem" editType="Range" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_boat_length" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_breadth" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_id" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_year" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_time" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_sail_date" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_intel_detail" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_rdt" editType="DateTime" length="-1" precision="0" typeName="timestamptz" type="QDateTime"/>
+     <Attribute comment="" name="ssr_dtg_str" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_cod_end_qty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fish_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_cargo_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_mobile_no" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_drug_liquor_diesel" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_jetty_owner" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_b_ops" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_deployment" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_activity" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_ifv_cleared" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
     </Attributes>
    </Layer>
-   <Layer geometryType="Point" opacity="1" expanded="0" displayField="ssr_boat_name" visible="1" queryable="1" visibilityChecked="1">
+   <Layer visible="1" queryable="1" geometryType="Point" opacity="1" displayField="ssr_boat_name" expanded="0" visibilityChecked="1">
     <Name>Mangroves-Cutting</Name>
     <Title>Mangroves-Cutting</Title>
     <CRS>CRS:84</CRS>
@@ -453,13 +453,13 @@
      <southBoundLatitude>22.15327</southBoundLatitude>
      <northBoundLatitude>25.2554</northBoundLatitude>
     </EX_GeographicBoundingBox>
-    <BoundingBox maxy="91.78183" miny="45.26543" minx="22.15327" CRS="EPSG:4326" maxx="25.2554"/>
+    <BoundingBox maxx="25.2554" CRS="EPSG:4326" minx="22.15327" miny="45.26543" maxy="91.78183"/>
     <Style>
      <Name>default</Name>
      <Title>default</Title>
      <LegendURL>
       <Format>image/png</Format>
-      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=Mangroves-Cutting&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=Mangroves-Cutting&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
      </LegendURL>
     </Style>
     <TreeName>Mangroves-Cutting</TreeName>
@@ -467,63 +467,63 @@
      <PrimaryKeyAttribute>ssr_key</PrimaryKeyAttribute>
     </PrimaryKey>
     <Attributes>
-     <Attribute comment="" length="-1" editType="TextEdit" type="int" precision="0" typeName="int4" name="ssr_key"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDateTime" precision="0" typeName="timestamptz" name="ssr_dtg"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_own_ship"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_country"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_no_of_crew"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_price"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_remarks"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_dep_date"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_issue_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_pc_issue_place"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_pc_days"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_expiry_date"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_pc_overdue"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_legal"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_dep_jetty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_trans"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_eta"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_course"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_speed"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_no_of_fvs"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_sfd_bfd"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_table"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_coi"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_name"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_regno"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_village"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDate" precision="0" typeName="date" name="ssr_arrival_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_location"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_qty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_gears"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_fish_position"/>
-     <Attribute comment="" length="-1" editType="Range" type="int" precision="0" typeName="int4" name="ssr_patroltype"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_actiontype"/>
-     <Attribute comment="" length="-1" editType="Range" type="int" precision="0" typeName="int4" name="ssr_fuelrem"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_length"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_breadth"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_id"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_year"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_time"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_boat_sail_date"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_intel_detail"/>
-     <Attribute comment="" length="-1" editType="DateTime" type="QDateTime" precision="0" typeName="timestamptz" name="ssr_rdt"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_dtg_str"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_cod_end_qty"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_fish_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_cargo_type"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_mobile_no"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_drug_liquor_diesel"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_jetty_owner"/>
-     <Attribute comment="" length="-1" editType="CheckBox" type="bool" precision="0" typeName="bool" name="ssr_b_ops"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_deployment"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_activity"/>
-     <Attribute comment="" length="-1" editType="TextEdit" type="QString" precision="0" typeName="varchar" name="ssr_ifv_cleared"/>
+     <Attribute comment="" name="ssr_key" editType="TextEdit" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_dtg" editType="DateTime" length="-1" precision="0" typeName="timestamptz" type="QDateTime"/>
+     <Attribute comment="" name="ssr_own_ship" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_country" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_no_of_crew" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_price" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_remarks" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_dep_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_issue_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_issue_place" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_pc_days" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_pc_expiry_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_pc_overdue" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_legal" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_dep_jetty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_trans" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_eta" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_course" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_speed" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_no_of_fvs" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_sfd_bfd" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_table" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_coi" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_boat_name" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_regno" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_village" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_arrival_date" editType="DateTime" length="-1" precision="0" typeName="date" type="QDate"/>
+     <Attribute comment="" name="ssr_location" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_qty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_gears" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fish_position" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_patroltype" editType="Range" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_actiontype" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fuelrem" editType="Range" length="-1" precision="0" typeName="int4" type="int"/>
+     <Attribute comment="" name="ssr_boat_length" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_breadth" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_id" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_year" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_time" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_boat_sail_date" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_intel_detail" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_rdt" editType="DateTime" length="-1" precision="0" typeName="timestamptz" type="QDateTime"/>
+     <Attribute comment="" name="ssr_dtg_str" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_cod_end_qty" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_fish_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_cargo_type" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_mobile_no" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_drug_liquor_diesel" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_jetty_owner" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_b_ops" editType="CheckBox" length="-1" precision="0" typeName="bool" type="bool"/>
+     <Attribute comment="" name="ssr_deployment" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_activity" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
+     <Attribute comment="" name="ssr_ifv_cleared" editType="TextEdit" length="-1" precision="0" typeName="varchar" type="QString"/>
     </Attributes>
    </Layer>
-   <Layer opacity="1" expanded="1" visible="1" queryable="1" visibilityChecked="1">
+   <Layer visible="1" queryable="1" opacity="1" expanded="1" visibilityChecked="1">
     <Name>OpenStreetMap</Name>
     <Title>OpenStreetMap</Title>
     <CRS>CRS:84</CRS>
@@ -534,13 +534,13 @@
      <southBoundLatitude>-85.051129</southBoundLatitude>
      <northBoundLatitude>85.051129</northBoundLatitude>
     </EX_GeographicBoundingBox>
-    <BoundingBox maxy="180" miny="-180" minx="-85.051129" CRS="EPSG:4326" maxx="85.051129"/>
+    <BoundingBox maxx="85.051129" CRS="EPSG:4326" minx="-85.051129" miny="-180" maxy="180"/>
     <Style>
      <Name>default</Name>
      <Title>default</Title>
      <LegendURL>
       <Format>image/png</Format>
-      <OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=OpenStreetMap&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0"/>
+      <OnlineResource xlink:href="http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D%3A%2FQGIS%2FProjects%2Fpatrol_type.qgz&amp;SERVICE=WMS&amp;VERSION=1.3.0&amp;REQUEST=GetLegendGraphic&amp;LAYER=OpenStreetMap&amp;FORMAT=image/png&amp;STYLE=default&amp;SLD_VERSION=1.1.0" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple"/>
      </LegendURL>
     </Style>
     <TreeName>OpenStreetMap</TreeName>
