@@ -9,7 +9,6 @@
         "Editing": "Edição",
         "Help": "Ajuda",
         "LayerTree": "Camadas & Legendas",
-        "LayerTree3D": "",
         "MapExport": "Exportar mapa",
         "MapFilter": "",
         "Print": "Imprimir",
@@ -275,10 +274,6 @@
       "visiblefilter": "Filtrar camadas invisíveis",
       "zoomtolayer": "Ampliar a camada"
     },
-    "layertree3d": {
-      "layers": "",
-      "objects": ""
-    },
     "linkfeatureform": {
       "cancel": "Cancelar",
       "close": "Fechar",
@@ -415,7 +410,6 @@
       "draw": "Traçar",
       "edit": "Editar",
       "ellipse": "Elipse",
-      "export": "",
       "freehand": "Desenho à mão livre ",
       "label": "Etiqueta",
       "layer": "Camada",
@@ -524,8 +518,7 @@
     "themelayerslist": {
       "addlayer": "Adicionar camada",
       "addlayerstotheme": "Adicionar camadas ao mapa atual",
-      "addselectedlayers": "Adicionar camadas selecionadas",
-      "existinglayers": ""
+      "addselectedlayers": "Adicionar camadas selecionadas"
     },
     "themeswitcher": {
       "addlayerstotheme": "Adicionar camadas ao mapa atual",

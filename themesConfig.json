@@ -2,19 +2,6 @@
     "themes": {
         "items": [
             {
-                "name": "fishingdensityheatmap",
-                "title": "Fishing Heat Map",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/jmicc_fishing_density_map.qgz",
-                "srs": "EPSG:3857",
-                "thumbnail":"ign.png",
-                "extent": [
-                    6679162.241,
-                    1118889.974,
-                    8686658.346,
-                    4487348.408
-                  ]
-            },
-            {
                 "name": "fishingheatmap",
                 "title": "Fishing Heat Map",
                 "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/fishingheatmap.qgz",
@@ -28,24 +15,14 @@
                   ]
             },
             {
-                "name": "base_map_example",
-                "title": "Base map",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/base_map_example.qgz",
-                "srs": "EPSG:4326",
-                "thumbnail":"ign.png"
-            },
-            {
                 "name": "narco",
                 "title": "Contraband Drug Confiscation",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/narco.qgz",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/narco_size_based.qgz",
                 "mapTips": true,
                 "srs": "EPSG:3857",
                 "thumbnail":"ign.png",
                 "extent": [
-                    6679162.241,
-                    1118889.974,
-                    8686658.346,
-                    4487348.408
+                  5999101.666666676,2328985.6666666646,8031101.666666676,3301593.9999999977
                   ]
             },
             {
@@ -56,10 +33,7 @@
                 "srs": "EPSG:3857",
                 "thumbnail":"fishing.png",
                 "extent": [
-                    6679162.241,
-                    1118889.974,
-                    8686658.346,
-                    4487348.408
+                    5146085.333333313,1907240.000000009,9210085.333333313,3852456.6666666754
                   ]
             },
             {
@@ -96,23 +70,10 @@
                 }
             },
             {
-                "name": "base_map_example",
-                "title": "Base map",
-                "type": "wms",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/base_map_example.qgz",
-                "params": {
-                    "LAYERS": "fdensity",
-                    "STYLES": "default",
-                    "VERSION": "1.3.0",
-                    "SRS": "EPSG:3857",
-                    "MAP": "D:/QGIS/Projects/base_map_example.qgz"
-                }
-            },
-            {
                 "name": "narco",
                 "title": "Contraband/Drug Confiscation",
                 "type": "wms",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/narco.qgz",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/narco_size_based.qgz",
                 "layers": [
                   {
                     "name": "TopLayer",
@@ -124,7 +85,7 @@
                     "STYLES": "default",
                     "VERSION": "1.3.0",
                     "SRS": "EPSG:3857",
-                    "MAP": "D:/QGIS/Projects/narco.qgz"
+                    "MAP": "D:/QGIS/Projects/narco_size_based.qgz"
                 }
             },
             {

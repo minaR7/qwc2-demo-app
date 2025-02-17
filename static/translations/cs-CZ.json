@@ -9,7 +9,6 @@
         "Editing": "Úpravy",
         "Help": "Nápověda",
         "LayerTree": "Vrstvy & legenda",
-        "LayerTree3D": "",
         "MapExport": "Export mapu",
         "MapFilter": "",
         "Print": "Tisk",
@@ -275,10 +274,6 @@
       "visiblefilter": "Skrýt nezobrazující se vrstvy",
       "zoomtolayer": "Vycentrovat na vrstvu"
     },
-    "layertree3d": {
-      "layers": "",
-      "objects": ""
-    },
     "linkfeatureform": {
       "cancel": "",
       "close": "",
@@ -415,7 +410,6 @@
       "draw": "",
       "edit": "",
       "ellipse": "",
-      "export": "",
       "freehand": "",
       "label": "Popisek",
       "layer": "Vrstva",
@@ -524,8 +518,7 @@
     "themelayerslist": {
       "addlayer": "Přidat vrstvu",
       "addlayerstotheme": "Přidat vrstvy do aktuálního tématu",
-      "addselectedlayers": "Přidat vybrané vrstvy",
-      "existinglayers": ""
+      "addselectedlayers": "Přidat vybrané vrstvy"
     },
     "themeswitcher": {
       "addlayerstotheme": "Přidat vrstvy do aktuálního tématu",

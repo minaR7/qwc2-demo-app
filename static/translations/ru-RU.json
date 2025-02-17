@@ -9,7 +9,6 @@
         "Editing": "Правка",
         "Help": "Помощь",
         "LayerTree": "Слои и легенда",
-        "LayerTree3D": "",
         "MapExport": "экспортировать карту",
         "MapFilter": "",
         "Print": "Печать",
@@ -275,10 +274,6 @@
       "visiblefilter": "",
       "zoomtolayer": ""
     },
-    "layertree3d": {
-      "layers": "",
-      "objects": ""
-    },
     "linkfeatureform": {
       "cancel": "",
       "close": "",
@@ -415,7 +410,6 @@
       "draw": "",
       "edit": "",
       "ellipse": "",
-      "export": "",
       "freehand": "",
       "label": "Надпись",
       "layer": "",
@@ -524,8 +518,7 @@
     "themelayerslist": {
       "addlayer": "",
       "addlayerstotheme": "",
-      "addselectedlayers": "",
-      "existinglayers": ""
+      "addselectedlayers": ""
     },
     "themeswitcher": {
       "addlayerstotheme": "",
