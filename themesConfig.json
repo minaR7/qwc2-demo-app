@@ -2,9 +2,49 @@
     "themes": {
         "items": [
             {
+                "name": "indian_dhows_routes",
+                "title": "Routes followed by Indian Dhows",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/JMICC_CNS_DEMO/indian_dhows_routes/indian_dhows_routes.qgz",
+                "srs": "EPSG:3857",
+                "thumbnail":"ign.png",
+                "extent": [
+                    5999101.666666676,2328985.6666666646,8031101.666666676,3301593.9999999977
+                  ]
+              },
+            {
+                "name": "indian_dhows_distance_from_pakcoast",
+                "title": "Indians Dhows Close to passing Pakistani Coast",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/JMICC_CNS_DEMO/indian_dhows_distance_from_pakcoast/indian_dhows_distance_from_pakcoast.qgz",
+                "srs": "EPSG:3857",
+                "thumbnail":"ign.png",
+                "extent": [
+                    5999101.666666676,2328985.6666666646,8031101.666666676,3301593.9999999977
+                  ]
+            },
+            {
+                "name": "pak_fishing_density_areas",
+                "title": "Fishing Heat Map Pakistan",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/JMICC_CNS_DEMO/pak_fishing_density_areas.qgz",
+                "srs": "EPSG:3857",
+                "thumbnail":"ign.png",
+                "extent": [
+                    5999101.666666676,2328985.6666666646,8031101.666666676,3301593.9999999977
+                  ]
+            },
+            {
+                "name": "all_vessels_fishing_density_areas_in_pak",
+                "title": "Fishing Heat Map",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/JMICC_CNS_DEMO/all_vessels_fishing_density_areas_in_pak.qgz",
+                "srs": "EPSG:3857",
+                "thumbnail":"ign.png",
+                "extent": [
+                    5999101.666666676,2328985.6666666646,8031101.666666676,3301593.9999999977
+                  ]
+            },
+            {
                 "name": "fishingheatmap",
                 "title": "Fishing Heat Map",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/fishingheatmap.qgz",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/PMSA_QGIS_MAPS/fishingheatmap.qgz",
                 "srs": "EPSG:3857",
                 "thumbnail":"ign.png",
                 "extent": [
@@ -17,7 +57,7 @@
             {
                 "name": "narco",
                 "title": "Contraband Drug Confiscation",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/narco_size_based.qgz",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/PMSA_QGIS_MAPS/narco_size_based.qgz",
                 "mapTips": true,
                 "srs": "EPSG:3857",
                 "thumbnail":"ign.png",
@@ -28,7 +68,7 @@
             {
                 "name": "search_and_rescue",
                 "title": "Search And Rescue",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/search_and_rescue.qgz",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/PMSA_QGIS_MAPS/search_and_rescue.qgz",
                 "mapTips": true,
                 "srs": "EPSG:3857",
                 "thumbnail":"fishing.png",
@@ -39,7 +79,7 @@
             {
                 "name": "patrol_type",
                 "title": "Patrol Type",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/patrol_type.qgz",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/PMSA_QGIS_MAPS/patrol_type.qgz",
                 "mapTips": true,
                 "srs": "EPSG:3857",
                 "thumbnail":"fishing.png",
@@ -60,20 +100,20 @@
                 "name": "fishingheatmap",
                 "title": "Fishing Heat Map",
                 "type": "wms",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/fishingheatmap.qgz",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/PMSA_QGIS_MAPS/fishingheatmap.qgz",
                 "params": {
                     "LAYERS": "fdensity-less stops",
                     "STYLES": "default",
                     "VERSION": "1.3.0",
                     "SRS": "EPSG:3857",
-                    "MAP": "D:/QGIS/Projects/fishingheatmap.qgz"
+                    "MAP": "D:/QGIS/Projects/PMSA_QGIS_MAPS/fishingheatmap.qgz"
                 }
             },
             {
                 "name": "narco",
                 "title": "Contraband/Drug Confiscation",
                 "type": "wms",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/narco_size_based.qgz",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/PMSA_QGIS_MAPS/narco_size_based.qgz",
                 "layers": [
                   {
                     "name": "TopLayer",
@@ -85,33 +125,33 @@
                     "STYLES": "default",
                     "VERSION": "1.3.0",
                     "SRS": "EPSG:3857",
-                    "MAP": "D:/QGIS/Projects/narco_size_based.qgz"
+                    "MAP": "D:/QGIS/Projects/PMSA_QGIS_MAPS/narco_size_based.qgz"
                 }
             },
             {
                 "name": "search_and_rescue",
                 "title": "Search And Rescue",
                 "type": "wms",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/search_and_rescue.qgz",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/PMSA_QGIS_MAPS/search_and_rescue.qgz",
                 "params": {
                     "LAYERS": "search_and_rescue",
                     "STYLES": "default",
                     "VERSION": "1.3.0",
                     "SRS": "EPSG:3857",
-                    "MAP": "D:/QGIS/Projects/search_and_rescue.qgz"
+                    "MAP": "D:/QGIS/Projects/PMSA_QGIS_MAPS/search_and_rescue.qgz"
                 }
             },
             {
                 "name": "patrol_type",
                 "title": "Patrol Type",
                 "type": "wms",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/patrol_type.qgz",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/PMSA_QGIS_MAPS/patrol_type.qgz",
                 "params": {
                     "LAYERS": "OpenStreetMap",
                     "STYLES": "default",
                     "VERSION": "1.3.0",
                     "SRS": "EPSG:3857",
-                    "MAP": "D:/QGIS/Projects/patrol_type.qgz"
+                    "MAP": "D:/QGIS/Projects/PMSA_QGIS_MAPS/patrol_type.qgz"
                 }
             }
 
