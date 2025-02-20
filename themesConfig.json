@@ -14,7 +14,8 @@
             {
                 "name": "indian_dhows_distance_from_pakcoast",
                 "title": "Indians Dhows Close to passing Pakistani Coast",
-                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/JMICC_CNS_DEMO/indian_dhows_distance_from_pakcoast/indian_dhows_distance_from_pakcoast.qgz",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/JMICC_CNS_DEMO/indian_dhows_distance_from_pakcoast/indian_dhows_distance_from_pakcoast_final.qgz",
+                "mapTips": true,
                 "srs": "EPSG:3857",
                 "thumbnail":"ign.png",
                 "extent": [
@@ -23,17 +24,18 @@
             },
             {
                 "name": "pak_fishing_density_areas",
-                "title": "Fishing Heat Map Pakistan",
+                "title": "Fishing Heat Map Pakistan (FVS_DATA)",
                 "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/JMICC_CNS_DEMO/pak_fishing_density_areas.qgz",
                 "srs": "EPSG:3857",
                 "thumbnail":"ign.png",
                 "extent": [
                     6493343.333333358,2222093.999999997,8207843.333333358,3146018.999999997
-                  ]
+                  ],
+                "excludeLayers": ["fvs_data", "OpenStreetMap"]
             },
             {
                 "name": "all_vessels_fishing_density_areas_in_pak",
-                "title": "Fishing Heat Map",
+                "title": "Fishing Heat Map (GFW)",
                 "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/JMICC_CNS_DEMO/all_vessels_fishing_density_areas_in_pak.qgz",
                 "srs": "EPSG:3857",
                 "thumbnail":"ign.png",
@@ -43,7 +45,7 @@
             },
             {
                 "name": "fishingheatmap",
-                "title": "Fishing Heat Map",
+                "title": "Fishing Heat Map (FDENSITY)",
                 "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/PMSA_QGIS_MAPS/fishingheatmap.qgz",
                 "srs": "EPSG:3857",
                 "thumbnail":"ign.png",
@@ -84,10 +86,7 @@
                 "srs": "EPSG:3857",
                 "thumbnail":"fishing.png",
                 "extent": [
-                    6679162.241,
-                    1118889.974,
-                    8686658.346,
-                    4487348.408
+                    6255218.626833332,1658002.5243333348,8403635.293499999,3514319.1910000015
                   ]
             }
         ],
