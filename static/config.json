@@ -128,29 +128,15 @@
         "name": "TopBar",
         "cfg": {
           "menuItems": [
-            {"key": "Portal", "icon": "themes"},
-            {"key": "ThemeSwitcher", "icon": "themes", "shortcut": "alt+shift+t"},
             {"key": "LayerTree", "icon": "layers", "shortcut": "alt+shift+l"},
             {"key": "MapLegend", "icon": "list-alt"},
-            {"key": "LayerCatalog", "icon": "catalog", "shortcut": "alt+shift+c"},
-            {"key": "FeatureSearch", "icon": "search"},
-            {"key": "Share", "icon": "share", "shortcut": "alt+shift+s"},
-            {"key": "Bookmark", "icon": "bookmark", "shortcut": "alt+shift+b"},
-            {"key": "Tools", "icon": "tools", "subitems": [
-              {"key": "Identify", "icon": "identify_region", "mode": "Region"},
-              {"key": "TimeManager", "icon": "clock"},
-              {"key": "Measure", "icon": "measure"},
-              {"key": "Redlining", "icon": "draw"},
-              {"key": "Editing", "icon": "editing"},
-              {"key": "FeatureForm", "icon": "featureform"},
-              {"key": "AttributeTable", "icon": "editing"},
-              {"key": "MapExport", "icon": "rasterexport"},
-              {"key": "Routing", "icon": "routing"}
-            ]},
-            {"key": "Print", "icon": "print", "shortcut": "alt+shift+p"},
-            {"key": "Help", "icon": "info", "shortcut": "alt+shift+h"},
-            {"key": "Settings", "icon": "cog"},
-            {"key": "ExternalLink", "icon": "link", "url": "http://example.com?extent=$e$", "target": "iframe"}
+            {"key": "Identify", "icon": "identify_region", "mode": "Region"},
+            {"key": "Measure", "icon": "measure"},
+            {"key": "TimeManager", "icon": "clock"},
+            {"key": "Redlining", "icon": "draw"},
+            {"key": "MapExport", "icon": "rasterexport"},
+            {"key": "Routing", "icon": "routing"},
+            {"key": "Print", "icon": "print", "shortcut": "alt+shift+p"}
           ],
           "searchOptions": {
             "allowSearchFilters": false,
@@ -502,9 +488,6 @@
             {"key": "Identify", "icon": "identify_region", "mode": "Region"}
           ]
         }
-      },
-      {
-        "name": "my-react-map-plugin"
       }
     ]
   }
