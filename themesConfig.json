@@ -57,6 +57,16 @@
                   ]
             },
             {
+                "name": "merchantheatmap",
+                "title": "Merchant Heat Map (AIS)",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/PMSA_QGIS_MAPS/ais_merchant_vessels_heatmap.qgz",
+                "srs": "EPSG:3857",
+                "thumbnail":"ign.png",
+                "extent": [
+                    6397035.293500023,2473977.524333331,8058618.626833357,3368269.190999998
+                  ]
+            },
+            {
                 "name": "narco",
                 "title": "Contraband Drug Confiscation",
                 "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/PMSA_QGIS_MAPS/narco_size_based.qgz",
@@ -106,6 +116,19 @@
                     "VERSION": "1.3.0",
                     "SRS": "EPSG:3857",
                     "MAP": "D:/QGIS/Projects/PMSA_QGIS_MAPS/fishingheatmap.qgz"
+                }
+            },
+            {
+                "name": "merchantheatmap",
+                "title": "Merchant Heat Map (AIS)",
+                "type": "wms",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/PMSA_QGIS_MAPS/ais_merchant_vessels_heatmap.qgz",
+                "params": {
+                    "LAYERS": "fdensity-less stops",
+                    "STYLES": "default",
+                    "VERSION": "1.3.0",
+                    "SRS": "EPSG:3857",
+                    "MAP": "D:/QGIS/Projects/PMSA_QGIS_MAPS/ais_merchant_vessels_heatmap.qgz"
                 }
             },
             {

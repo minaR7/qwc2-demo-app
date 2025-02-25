@@ -82,7 +82,7 @@ export default {
                 EditingSupport: EditingSupport,
                 MeasurementSupport: MeasurementSupport,
                 LocateSupport: LocateSupport,
-                OverviewSupport: OverviewSupport,
+                // OverviewSupport: OverviewSupport,
                 RedliningSupport: RedliningSupport,
                 ScaleBarSupport: ScaleBarSupport,
                 SnappingSupport: SnappingSupport
@@ -131,7 +131,7 @@ export default {
             TaskButtonPlugin: TaskButtonPlugin,
             ThemeSwitcherPlugin: ThemeSwitcherPlugin,
             TimeManagerPlugin: TimeManagerPlugin,
-            MyReactMapPlugin: MyReactMapPlugin,
+            // MyReactMapPlugin: MyReactMapPlugin,
             TopBarPlugin: TopBarPlugin({
                 AppMenu: AppMenu,
                 Search: SearchBox,
