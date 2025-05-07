@@ -67,6 +67,16 @@
                   ]
             },
             {
+                "name": "merchantheatmap2",
+                "title": "Merchant Heat Map (AIS)",
+                "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/SINC/Testing/ais_merchant_vessels_heatmap2.qgz",
+                "srs": "EPSG:3857",
+                "thumbnail":"ign.png",
+                "extent": [
+                    6397035.293500023,2473977.524333331,8058618.626833357,3368269.190999998
+                  ]
+            },
+            {
                 "name": "narco",
                 "title": "Contraband Drug Confiscation",
                 "url": "http://localhost:8080/cgi-bin/qgis_mapserv.fcgi.exe?MAP=D:/QGIS/Projects/PMSA_QGIS_MAPS/narco_size_based.qgz",
@@ -183,6 +193,7 @@
             {"name":"example_link2","title":"Example link 2","url":"https://example.com/","target":"_blank"}
           ]
     },
+    "defaultTheme": "D:/QGIS/Projects/default_map.qgz",
     "defaultScales": [
         256000000,
         128000000,
